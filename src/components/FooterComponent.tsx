@@ -50,30 +50,6 @@ export default function FooterComponent() {
               />
             </Link>
           </div>
-          {/* <div className="w-full flex flex-col gap-3 justify-center md:items-end">
-            <p className="text-lg font-semibold">
-              Tetap{" "}
-              <span className="decoration-primary underline ">Terhubung</span>
-            </p>
-            <p className="text-base">Ikuti kami pada media sosial berikut:</p>
-            <div className="flex items-center gap-5">
-              <Link href={`https://twitter.com/mhdnauvalazhar`} target="_blank">
-                <div className="p-2 bg-white shadow-sm hover:bg-primary/20 rounded-full text-primary duration-150">
-                  <InstagramIcon />
-                </div>
-              </Link>
-              <Link href={`https://twitter.com/mhdnauvalazhar`} target="_blank">
-                <div className="p-2 bg-white shadow-sm hover:bg-primary/20 rounded-full text-primary duration-150">
-                  <MessageCircleIcon />
-                </div>
-              </Link>
-              <Link href={`https://twitter.com/mhdnauvalazhar`} target="_blank">
-                <div className="p-2 bg-white shadow-sm hover:bg-primary/20 rounded-full text-primary duration-150">
-                  <Linkedin />
-                </div>
-              </Link>
-            </div>
-          </div> */}
         </div>
         <div className="text-xs uppercase text-center">
           copyright &copy; 2024 by avenir tech
