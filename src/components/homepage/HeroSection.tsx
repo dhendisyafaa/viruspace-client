@@ -1,12 +1,14 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 export default function HeroSection() {
   return (
     <div className="py-10 px-4 text-center flex flex-col gap-y-5 justify-center items-center">
-      <p className="text-sm font-semibold text-primary">TES KEPRIBADIAN MBTI</p>
+      <p className="text-sm font-semibold text-primary">
+        EKSPORASI DUNIA VIRUS
+      </p>
       <p className="text-4xl md:text-5xl font-bold text-primary">
-        Mengenali Virus
+        Mengenal Virus. Lebih Dekat.
       </p>
       <p className="text-base md:text-xl md:w-[60vw] text-primary">
         Memahami cara{" "}
@@ -17,7 +19,7 @@ export default function HeroSection() {
       </p>
       <Link href="/daftar-virus">
         <Button className="rounded-full font-bold" size={"lg"}>
-          Tes MBTI Gratis
+          Tes Pengetahuan Virus
         </Button>
       </Link>
     </div>

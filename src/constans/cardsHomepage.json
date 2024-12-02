@@ -1,0 +1,30 @@
+[
+  {
+    "image": "/images/cards/card-materi.png",
+    "title": "PELAJARI VIRUS-VIRUS SEKITAR KITA",
+    "description": "Lihat penjelasan lengkap dan cara pencegahan tentang virus disekitar kita",
+    "buttonText": "Lihat materi",
+    "href": "/daftar-virus"
+  },
+  {
+    "image": "/images/cards/card-quiz.png",
+    "title": "SIAP MENJADI JUARANYA?",
+    "description": "Jangan ragu! Ayo, tantang dirimu sekarang dan mainkan kuisnya. Siapa tahu, kamu akan jadi pemenang dengan skor tertinggi!",
+    "buttonText": "Mulai quiz",
+    "href": "/quiz"
+  },
+  {
+    "image": "/images/cards/card-video.png",
+    "title": "INGIN TAHU LEBIH BANYAK TENTANG VIRUS? TONTON VIDEO PEMBELAJARAN INI!",
+    "description": "Virus bisa menjadi topik yang rumit, tapi dengan video pembelajaran ini, kamu akan lebih mudah memahaminya!",
+    "buttonText": "Lihat video pembelajaran",
+    "href": "/video-belajar"
+  },
+  {
+    "image": "/images/cards/card-mini-game.png",
+    "title": "SIAP UNTUK BERMAIN DAN BELAJAR?",
+    "description": "Mainkan mini game untuk menguji sejauh mana kamu paham tentang virus!",
+    "buttonText": "Main mini game",
+    "href": "/mini-game"
+  }
+]
