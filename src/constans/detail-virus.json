@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "common cold",
+    "penyebab": "flu",
+    "pengertian": "Virus influenza adalah virus yang termasuk dalam famili Orthomyxoviridae dan memiliki materi genetik berupa RNA (asam ribonukleat) yang diselubungi oleh protein",
+    "bentuk": "Sferis atau bulat dengan diameter sekitar 80-120 nanometer. Bentuknya mirip seperti bola kecil",
+    "penyebaranGejalaAwal": "Awal masuk pada tahun 1918, gejala awalnya demam tinggi, batuk, nyeri tubuh, dan hidung meler",
+    "tempatDitemukan": "Di tempat tempat umum seperti rumah sakit, ruang kerja, dsb",
+    "caraPencegahan": "Makan makanan bergizi, hindari merokok, menjaga kebersihan, gunakan masker ketika di dalam kerumunan",
+    "images": [
+      "/images/viruspace-logo.jpg",
+      "/images/viruses/common-cold.png",
+      "/images/cards/card-materi.png",
+      "/images/viruses/common-cold.png",
+      "/images/viruses/common-cold.png",
+      "/images/cards/card-quiz.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "",
+    "penyebab": "",
+    "pengertian": "",
+    "bentuk": "",
+    "penyebaranGejalaAwal": "",
+    "tempatDitemukan": "",
+    "caraPencegahan": "",
+    "images": [
+      "/images/viruses/common-cold.png",
+      "/images/viruses/common-cold.png",
+      "/images/viruses/common-cold.png",
+      "/images/viruses/common-cold.png",
+      "/images/viruses/common-cold.png"
+    ]
+  }
+]
