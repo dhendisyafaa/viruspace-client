@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function HeroSection() {
   return (
-    <div className="pb-16 px-4 text-center flex flex-col gap-y-5 justify-center items-center">
+    <div className="py-10 px-4 text-center flex flex-col gap-y-5 justify-center items-center">
       <p className="text-sm font-semibold text-primary">TES KEPRIBADIAN MBTI</p>
       <p className="text-4xl md:text-5xl font-bold text-primary">
         Mengenali Virus
