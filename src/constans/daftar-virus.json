@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "common cold",
+    "image": "/images/viruses/common-cold.png",
+    "bgColor": "#3D3A3A"
+  },
+  {
+    "id": 2,
+    "name": "sars-cov-2",
+    "image": "/images/viruses/sars-cov-2.png",
+    "bgColor": "#858486"
+  },
+  {
+    "id": 3,
+    "name": "varicella zoaster",
+    "image": "/images/viruses/varicella-zoaster.png",
+    "bgColor": "#46762C"
+  },
+  {
+    "id": 4,
+    "name": "human papillomavirus",
+    "image": "/images/viruses/human-papillomavirus.png",
+    "bgColor": "#A13032"
+  },
+  {
+    "id": 5,
+    "name": "influenza",
+    "image": "/images/viruses/influenza.png",
+    "bgColor": "#156773"
+  },
+  {
+    "id": 6,
+    "name": "syncytial resparasi",
+    "image": "/images/viruses/syncytial-resparasi.png",
+    "bgColor": "#6755AC"
+  },
+  {
+    "id": 7,
+    "name": "herves simplex",
+    "image": "/images/viruses/herves-simplex.png",
+    "bgColor": "#D3491A"
+  },
+  {
+    "id": 8,
+    "name": "norovirus",
+    "image": "/images/viruses/norovirus.png",
+    "bgColor": "#02327C"
+  },
+  {
+    "id": 9,
+    "name": "rotavirus",
+    "image": "/images/viruses/rotavirus.png",
+    "bgColor": "#6B182A"
+  },
+  {
+    "id": 10,
+    "name": "hepatitis a, b, dan c",
+    "image": "/images/viruses/hepatitis-a-b-dan-c.png",
+    "bgColor": "#4E625E"
+  },
+  {
+    "id": 11,
+    "name": "dengue",
+    "image": "/images/viruses/dengue.png",
+    "bgColor": "#0E663C"
+  },
+  {
+    "id": 12,
+    "name": "zika",
+    "image": "/images/viruses/zika.png",
+    "bgColor": "#847A0F"
+  },
+  {
+    "id": 13,
+    "name": "chikungunya",
+    "image": "/images/viruses/chikungunya.png",
+    "bgColor": "#7D356D"
+  },
+  {
+    "id": 14,
+    "name": "west nile",
+    "image": "/images/viruses/west-nile.png",
+    "bgColor": "#062C31"
+  },
+  {
+    "id": 15,
+    "name": "polio",
+    "image": "/images/viruses/polio.png",
+    "bgColor": "#3F564F"
+  },
+  {
+    "id": 16,
+    "name": "rabies",
+    "image": "/images/viruses/rabies.png",
+    "bgColor": "#13525E"
+  },
+  {
+    "id": 17,
+    "name": "ebola",
+    "image": "/images/viruses/ebola.png",
+    "bgColor": "#542718"
+  },
+  {
+    "id": 18,
+    "name": "hiv",
+    "image": "/images/viruses/hiv.png",
+    "bgColor": "#4A8373"
+  },
+  {
+    "id": 19,
+    "name": "measles",
+    "image": "/images/viruses/measles.png",
+    "bgColor": "#213B55"
+  },
+  {
+    "id": 20,
+    "name": "mumps",
+    "image": "/images/viruses/mumps.png",
+    "bgColor": "#7B8C83"
+  }
+]
