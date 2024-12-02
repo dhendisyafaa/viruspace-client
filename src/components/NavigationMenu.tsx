@@ -18,24 +18,24 @@ export default function NavigationMenuNavbar() {
       title: "Belajar tentang virus",
       href: "/daftar-virus",
       description:
-        "A modal dialog that interrupts the user with important content and expects a response.",
+        "Lihat penjelasan lengkap dan cara pencegahan tentang virus disekitar kita",
     },
     {
       title: "Quiz",
       href: "/quiz",
-      description:
-        "For sighted users to preview content available behind a link.",
+      description: "Tantang dirimu sekarang dan mainkan kuisnya",
     },
     {
       title: "Video pembelajaran",
       href: "/video-belajar",
       description:
-        "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+        "Belajar virus akan lebih mudah memahaminya dengan video pembelajaran",
     },
     {
       title: "Mini game",
       href: "/mini-game",
-      description: "Visually or semantically separates content.",
+      description:
+        "Mainkan mini game untuk menguji sejauh mana kamu paham tentang virus!",
     },
   ];
 
@@ -59,7 +59,7 @@ export default function NavigationMenuNavbar() {
               <MenuIcon />
             </NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+              <ul className="grid w-[300px] sm:w-[400px] gap-3 p-2 sm:grid-cols-2 grid-cols-1">
                 {navigation.map((nav) => (
                   <ListItem key={nav.title} title={nav.title} href={nav.href}>
                     {nav.description}
@@ -69,36 +69,6 @@ export default function NavigationMenuNavbar() {
             </NavigationMenuContent>
           </NavigationMenuItem>
         </div>
-        {/* <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Beranda
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Belajar virus</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {components.map((component) => (
-                <ListItem
-                  key={component.title}
-                  title={component.title}
-                  href={component.href}
-                >
-                  {component.description}
-                </ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Tentang kami
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   );
@@ -107,14 +77,15 @@ export default function NavigationMenuNavbar() {
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
   React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+>(({ className, title, children, href, ...props }, ref) => {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
+          href={href}
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground shadow-md",
             className
           )}
           {...props}
@@ -123,7 +94,7 @@ const ListItem = React.forwardRef<
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );
