@@ -15,7 +15,7 @@ import Link from "next/link";
 export default function Home() {
   const cardContents = [
     {
-      image: "/images/viruspace-logo.jpg",
+      image: "/images/cards/card-materi.png",
       title: "PELAJARI VIRUS-VIRUS SEKITAR KITA",
       description:
         "Lihat penjelasan lengkap,cara pencegahan,cara mencegah dsb tentang virus disekitar",
@@ -23,7 +23,7 @@ export default function Home() {
       href: "/daftar-virus",
     },
     {
-      image: "/images/viruspace-logo.jpg",
+      image: "/images/cards/card-quiz.png",
       title: "SIAP MENJADI JUARANYA?",
       description:
         "Jangan ragu! Ayo, tantang dirimu sekarang dan mainkan kuisnya. Siapa tahu, kamu akan jadi pemenang dengan skor tertinggi!",
@@ -31,7 +31,7 @@ export default function Home() {
       href: "/quiz",
     },
     {
-      image: "/images/viruspace-logo.jpg",
+      image: "/images/cards/card-video.png",
       title:
         "INGIN TAHU LEBIH BANYAK TENTANG VIRUS? TONTON VIDEO PEMBELAJARAN INI!",
       description:
@@ -40,7 +40,7 @@ export default function Home() {
       href: "/video-belajar",
     },
     {
-      image: "/images/viruspace-logo.jpg",
+      image: "/images/cards/card-mini-game.png",
       title: "SIAP UNTUK BERMAIN DAN BELAJAR?",
       description:
         "Bergabunglah sekarang, dan ayo mainkan mini game untuk menguji sejauh mana kamu paham tentang virus!",
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <div className="">
       <HeroSection />
-      <div className="relative w-full md:w-[50vw] -z-10 -mb-16 lg:-mb-6 mx-auto h-[30vh]">
+      <div className="relative w-full md:w-[50vw] -z-10 -mb-16 lg:-mb-12 mx-auto h-[33vh]">
         {/* <Image
           src={"/images/animation-virus.png"}
           alt="virus"
@@ -83,7 +83,7 @@ export default function Home() {
               return (
                 <Card
                   key={i}
-                  className="max-w-md rounded-br-3xl rounded-bl-3xl mx-auto text-left overflow-hidden border-none"
+                  className="max-w-md rounded-3xl mx-auto text-left overflow-hidden border-none"
                 >
                   <div className="relative h-72">
                     <Image
