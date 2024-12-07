@@ -55,7 +55,7 @@ export default function DetailVirusImage({ images }) {
                 <div onClick={() => setOpenModal(true)}>
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-6 cursor-pointer">
-                      <img
+                      <Image
                         className="w-full rounded-xl shadow"
                         src={image}
                         width="232"
@@ -93,7 +93,7 @@ export default function DetailVirusImage({ images }) {
                         className="border"
                         src={image}
                         alt={`image virus ${idx + 1}`}
-                        layout="fill"
+                        fill
                         objectFit="contain"
                       />
                     </div>
