@@ -8,23 +8,15 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import cardContents from "../../constans/cardsHomepage.json";
 
-export default function CardsSection() {
+export default function CardsSection({ content }) {
   return (
     <div className="bg-primary text-center py-20 text-primary-foreground rounded-3xl lg:rounded-[100px]">
       <div className="px-4 md:w-[70vw] mx-auto">
-        <p className="text-xl md:text-4xl font-bold">
-          Sudah mengenal lebih dalam tentang virus?
-        </p>
-        <p className="text-sm lg:text-lg mt-5">
-          Setelah kamu memahami lebih dalam tentang virus, kamu akan memiliki
-          kemampuan untuk melakukan lebih banyak hal daripada yang kamu kira.
-          Jangan hanya berhenti pada pengetahuan dasar! Lakukan 4 hal ini untuk
-          memanfaatkan pengetahuanmu secara maksimal!
-        </p>
+        <p className="text-xl md:text-4xl font-bold">{content.title}</p>
+        <p className="text-sm lg:text-lg mt-5">{content.subTitle}</p>
         <div className="gap-10 mt-10 grid grid-cols-1 md:grid-cols-2">
-          {cardContents.map((content, i) => {
+          {content.cards.map((content, i) => {
             return (
               <Card
                 key={i}
@@ -34,7 +26,7 @@ export default function CardsSection() {
                   <Image
                     alt={content.title}
                     src={content.image}
-                    layout="fill"
+                    fill
                     objectFit="cover"
                   />
                 </div>

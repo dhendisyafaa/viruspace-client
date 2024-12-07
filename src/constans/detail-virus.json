@@ -2,36 +2,337 @@
   {
     "id": 1,
     "name": "common cold",
-    "penyebab": "flu",
-    "pengertian": "Virus influenza adalah virus yang termasuk dalam famili Orthomyxoviridae dan memiliki materi genetik berupa RNA (asam ribonukleat) yang diselubungi oleh protein",
-    "bentuk": "Sferis atau bulat dengan diameter sekitar 80-120 nanometer. Bentuknya mirip seperti bola kecil",
-    "penyebaranGejalaAwal": "Awal masuk pada tahun 1918, gejala awalnya demam tinggi, batuk, nyeri tubuh, dan hidung meler",
-    "tempatDitemukan": "Di tempat tempat umum seperti rumah sakit, ruang kerja, dsb",
-    "caraPencegahan": "Makan makanan bergizi, hindari merokok, menjaga kebersihan, gunakan masker ketika di dalam kerumunan",
+    "penyebab": "Flu",
+    "pengertian": "Common Cold/pilek biasa adalah infeksi saluran pernapasan atas yang terutama menyerang bagian hidung dari mukosa pernapasan.",
+    "bentuk": "Abstrak/berubah ubah",
+    "penyebaranGejalaAwal": "Batuk,hidung tersumbat",
+    "tempatDitemukan": "Tempat-tempat umum",
+    "caraPencegahan": "Hindari kontak dengan org yg sedang sakit",
     "images": [
-      "/images/viruspace-logo.jpg",
-      "/images/viruses/common-cold.png",
-      "/images/cards/card-materi.png",
-      "/images/viruses/common-cold.png",
-      "/images/viruses/common-cold.png",
-      "/images/cards/card-quiz.png"
-    ]
-  },
-  {
-    "id": 2,
-    "name": "",
-    "penyebab": "",
-    "pengertian": "",
-    "bentuk": "",
-    "penyebaranGejalaAwal": "",
-    "tempatDitemukan": "",
-    "caraPencegahan": "",
-    "images": [
-      "/images/viruses/common-cold.png",
       "/images/viruses/common-cold.png",
       "/images/viruses/common-cold.png",
       "/images/viruses/common-cold.png",
       "/images/viruses/common-cold.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "sars-cov-2",
+    "penyebab": "Koronavirus sindrom pernapasan akut berat 2",
+    "pengertian": "CoV adalah virus berselubung dengan membran lipid yang berasal dari sel inang, tempat protein permukaan virus tertanam.",
+    "bentuk": "Ciri morfologi khusus dari selubung yang memiliki bentuk seperti mahkota matahari, hingga memiliki satu untai RNA positive sense mirip dengan mRNA inangnya.",
+    "penyebaranGejalaAwal": "Virus ini pertama kali menyebar di tiongkok awal januari 2020, namun Virus korona manusia pertama (HCoV) dideskripsikan pada tahun 1960-an dan diberi nama HCoV-229E dan HCoV-OC43. Menular (IBV). gejala awal terkena covid adalah indra perasa yg hilang, tidak dapat menghirup dengan baik, batuk dan demam ringan.",
+    "tempatDitemukan": "Tempat perkumpulan orang orang dari berbagai negara dan daerah seperti bandara dll",
+    "caraPencegahan": "Memakai masker ketika sedang di tempat umum, rajin mencuci tangan, menghindari kerumunan, dan vaksinasi.",
+    "images": [
+      "/images/viruses/sars-cov-2.png",
+      "/images/viruses/sars-cov-2.png",
+      "/images/viruses/sars-cov-2.png",
+      "/images/viruses/sars-cov-2.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "varicella zoaster",
+    "penyebab": "Cacar Air dan Herpes Zoster",
+    "pengertian": "VZV merupakan virus DNA, anggota human herpesvirus subfamily Alphaherpesvirinae",
+    "bentuk": "Virus VZV memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer.",
+    "penyebaranGejalaAwal": "Varisela sangat mudah menular terutama melalui percikan ludah, dapat juga kontak langsung, dan jarang kontak tidak langsung.Patogenesis penyakit ini dimulai saat VZV masuk tubuh melalui mukosa saluran napas bagian atas atau orofaring. Gejala awal terkena adalah Demam ringan, rasa lelah, sakit kepala, hilang nafsu maka, dan nyeri otot.",
+    "tempatDitemukan": "Virus ini bisa datang kapan saja dan dimana saja",
+    "caraPencegahan": "Jaga kebersihan dan perkuat sistem imun tubuh",
+    "images": [
+      "/images/viruses/varicella-zoaster.png",
+      "/images/viruses/varicella-zoaster.png",
+      "/images/viruses/varicella-zoaster.png",
+      "/images/viruses/varicella-zoaster.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "human papillomavirus",
+    "penyebab": "infeksi kulit dan selaput lendir manusia",
+    "pengertian": "jenis virus DNA yang sangat spesifik menginfeksi sel-sel epitel pada manusia. Epitel adalah lapisan jaringan yang melapisi permukaan tubuh dan rongga tubuh, seperti kulit, mulut, dan saluran genital.",
+    "bentuk": "memiliki bentuk yang hampir bulat atau sedikit lonjong.terdiri dari 20 segitiga sama sisi",
+    "penyebaranGejalaAwal": "Virus HPV ditularkan melalui kontak kulit-ke-kulit langsung. Meskipun infeksi paling sering menyebar melalui hubungan seks vaginal atau anal, jenis kontak seksual lainnya dapat menularkan HPV,",
+    "tempatDitemukan": "Area genital, mulut, tenggorokan, dan kulit.",
+    "caraPencegahan": "Berhubungan seks yang aman, rutin memeriksa kesehatan, hindari berbagi barang pribadi, dan vaksin.",
+    "images": [
+      "/images/viruses/human-papillomavirus.png",
+      "/images/viruses/human-papillomavirus.png",
+      "/images/viruses/human-papillomavirus.png",
+      "/images/viruses/human-papillomavirus.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "influenza",
+    "penyebab": "flu",
+    "pengertian": "Virus influenza adalah virus yang termasuk dalam famili Orthomyxoviridae dan memiliki materi genetik berupa RNA (asam ribonukleat) yang diselubungi oleh protein.",
+    "bentuk": "Sferis atau bulat dengan diameter sekitar 80-120 nanometer. Bentuknya mirip seperti bola kecil",
+    "penyebaranGejalaAwal": "Awal masuk pada tahun 1918, gejala awalnya demam tinggi, batuk, nyeri tubuh, dan hidung meler.",
+    "tempatDitemukan": "Di tempat tempat umum seperti rumah sakit, ruang kerja,dsb.",
+    "caraPencegahan": "Makan makanan bergizi, hindari merokok, menjaga kebersihan, gunakan masker ketika di dalam kerumunan",
+    "images": [
+      "/images/viruses/influenza.png",
+      "/images/viruses/influenza.png",
+      "/images/viruses/influenza.png",
+      "/images/viruses/influenza.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "virus syncytial respirasi",
+    "penyebab": "infeksi saluran pernafasan",
+    "pengertian": "Virus Syncytial Respirasi adalah agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif, juga diselubungi oleh lipid.",
+    "bentuk": "Secara umum, Virus Syncytial Respirasi  memiliki bentuk bulat atau bulat telur. Namun, ada pula beberapa jenis virus RSV yang memiliki bentuk sedikit lebih memanjang atau tidak beraturan. Bentuk ini dipengaruhi oleh struktur protein yang menyusun permukaan virus.",
+    "penyebaranGejalaAwal": "Hidung meler,Batuk,Demam ringan,Sakit tenggorokan.",
+    "tempatDitemukan": "Di tempat tempat umum seperti rumah sakit, ruang kerja,dsb.",
+    "caraPencegahan": "Mencuci tangan, menutup mulut saat bersin atau batuk, dan hindari kontak dekat dengan orang sakit.",
+    "images": [
+      "/images/viruses/syncytial-resparasi.png",
+      "/images/viruses/syncytial-resparasi.png",
+      "/images/viruses/syncytial-resparasi.png",
+      "/images/viruses/syncytial-resparasi.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "herpes simplex virus",
+    "penyebab": "Virus penyakit herpes",
+    "pengertian": "Herpes Simplex Virus (HSV) adalah jenis virus DNA dari famili Herpesviridae yang menginfeksi manusia. Virus ini bersifat neurotropik, artinya setelah menginfeksi sel tubuh, virus akan (bersembunyi) di dalam sel saraf.",
+    "bentuk": "Semua virus herpes manusia berukuran sekitar 200 nm diameternya dan mengandung inti DNA untai ganda linier dengan panjang sekitar 150 kilo pasangan basa (Kbp) yang terbungkus dalam kapsid protein, ditutupi oleh tegumen dan selubung yang mengandung glikoprotein.",
+    "penyebaranGejalaAwal": "HSV menyerang kulit dan selaput lendir melalui hubungan seksual. Gejala awal: rasa gatal dan terbakar, nyeri, kemunculan benjolan kecil, pembengkakan kelenjar getah bening, demam ringan, sakit kepala.",
+    "tempatDitemukan": "Area genital, mulut, bibir, dan mata.",
+    "caraPencegahan": "Cara mencegah: Gunakan kondom, batasi jumlah pasangan seksual, vaksin, hindari memakai barang pribadi bersama.Cara mengobati: Pengobatan untuk infeksi HSV oral atau genital primer pada pasien sehat biasanya diberikan secara oral selama 7–10 hari dengan asiklovir, valasiklovir, atau famsiklovir (Centers for Disease Control and Prevention, 2002). Pengobatan untuk penyakit yang kambuh dapat bersifat episodik (pengobatan pada tanda atau gejala pertama wabah) selama 1–5 hari untuk mengurangi gejala infeksi HSV atau supresif (setiap hari) untuk mencegah kekambuhan (Stanberry et al.,1999, Corey, 2002).",
+    "images": [
+      "/images/viruses/herves-simplex.png",
+      "/images/viruses/herves-simplex.png",
+      "/images/viruses/herves-simplex.png",
+      "/images/viruses/herves-simplex.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "norovirus",
+    "penyebab": "-",
+    "pengertian": "Norovirus adalah virus RNA dari famili Caliciviridae, patogen enterik manusia yang menyebabkan morbiditas substansial di seluruh perawatan kesehatan dan pengaturan komunitas",
+    "bentuk": "tersusun sedemikian rupa untuk menciptakan cekungan atau struktur seperti cangkir pada permukaan virus dan  dapat mengubah bentuk atau wujud",
+    "penyebaranGejalaAwal": "Mual dan muntah, terserang diare, sakit perut atau kram, mengalami demam ringan hingga tinggi, nyeri pada otot.",
+    "tempatDitemukan": "virus ini menyebar di tempat-tempat umum, seperti fasilitas perawatan kesehatan, restoran, perkantoran, dan sekolah. Satu orang yang terinfeksi bisa dengan mudah untuk menularkannya pada orang lain.",
+    "caraPencegahan": "Menjauhi orang yang terkontaminasi, menjaga kebersihan tangan, dan desinfeksi lingkungan",
+    "images": [
+      "/images/viruses/norovirus.png",
+      "/images/viruses/norovirus.png",
+      "/images/viruses/norovirus.png",
+      "/images/viruses/norovirus.png"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "rotavirus",
+    "penyebab": "gastroenteritis parah dan dehidras",
+    "pengertian": "Infeksi rotavirus merupakan penyebab utama gastroenteritis parah dan dehidrasi pada anak-anak <5 tahun. Rotavirus terutama menginfeksi enterosit dan menyebabkan diare melalui penghancuran enterosit yang menyerap (menyebabkan malabsorpsi),",
+    "bentuk": "rotavirus virus berbentuk seperti roda",
+    "penyebaranGejalaAwal": "Diare, gejala dehidrasi, pusing dan lemas, demam",
+    "tempatDitemukan": "Infeksi rotavirus sangat umum terjadi pada anak-anak berusia 3-35 bulan, terutama di tempat penitipan anak dan rumah sakit",
+    "caraPencegahan": "Penanganan infeksi rotavirus difokuskan pada pencegahan dan pengobatan dehidrasi, penggunaan obat antivirus dan antiemetik, vaksinasi rotavirus",
+    "images": [
+      "/images/viruses/rotavirus.png",
+      "/images/viruses/rotavirus.png",
+      "/images/viruses/rotavirus.png",
+      "/images/viruses/rotavirus.png"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "hepatitis a, b, dan c",
+    "penyebab": "hepatitis",
+    "pengertian": "Hepatitis adalah peradangan pada hati yang bisa disebabkan oleh berbagai faktor, termasuk infeksi virus. Ada tiga jenis hepatitis yang umum, yaitu hepatitis A, B, dan C. 1. Hepatitis A disebabkan oleh virus hepatitis A (HAV), yang biasanya menyebar melalui konsumsi makanan atau air yang terkontaminasi oleh tinja dari seseorang yang terinfeksi. Infeksi hepatitis A sering kali ringan dan tidak menyebabkan kerusakan hati yang permanen 2. Hepatitis B disebabkan oleh virus hepatitis B (HBV), yang dapat menyebabkan infeksi jangka panjang dan kerusakan hati yang serius, termasuk sirosis dan kanker hati. Hepatitis B menular melalui darah, cairan tubuh (seperti air mani), dan dari ibu ke anak saat kelahiran 3. Hepatitis C disebabkan oleh virus hepatitis C (HCV). Seperti hepatitis B, hepatitis C dapat menyebabkan infeksi kronis yang bisa berujung pada kerusakan hati berat, termasuk sirosis dan kanker hati. Hepatitis C umumnya menyebar melalui darah yang terkontaminasi, seperti melalui penggunaan jarum suntik yang tidak steril",
+    "bentuk": "1.Hepatitis A Bentuk ikosahedral (bersegi 20 sisi). 2. Hepatitis B bentuk spherical atau ellipsoid. 3. Hepatitis CBentuk bulat dengan kapsid protein.",
+    "penyebaranGejalaAwal": "1.hepatitis A Demam. Kelelahan. Mual dan muntah.Nyeri perut. 2. Hepatitis B Demam.Kelelahan. Nyeri perut. Mual dan muntah. Kulit dan mata yang menguning Rasa tidak nyaman di sekitar hati. 2. Hepatitis C Banyak orang dengan hepatitis C tidak menunjukkan gejala pada awalnya.Jika gejala muncul, bisa termasuk kelelahan, mual, nyeri perut.",
+    "tempatDitemukan": "Ditempat umum seperti tempat makan hingga fasilitas kesehatan karena terkontaminasi",
+    "caraPencegahan": "Hepatitis A umumnya ringan dan bisa sembuh dengan sendirinya. Vaksin tersedia untuk hepatitis B, tetapi tidak ada vaksin untuk hepatitis C. Pencegahan termasuk vaksinasi (untuk hepatitis A dan B), menjaga kebersihan, dan menghindari berbagi barang-barang pribadi yang bisa terkontaminasi darah.",
+    "images": [
+      "/images/viruses/hepatitis-a-b-dan-c.png",
+      "/images/viruses/hepatitis-a-b-dan-c.png",
+      "/images/viruses/hepatitis-a-b-dan-c.png",
+      "/images/viruses/hepatitis-a-b-dan-c.png"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "dengue",
+    "penyebab": "demam dengue",
+    "pengertian": "Virus Dengue adalah virus yang menyebabkan penyakit demam dengue, yang umumnya ditularkan melalui gigitan nyamuk Aedes aegypti dan Aedes albopictus yang terinfeksi. Virus ini termasuk dalam keluarga Flaviviridae, dengan subkelompok Flavivirus. Penyakit ini sering terjadi di daerah tropis dan subtropis, terutama di Asia Tenggara, Amerika Latin, dan beberapa bagian Afrika. infeksi virus yang ditularkan melalui vektor yang membahayakan sekitar 2,5 miliar orang. Penyakit yang disebabkan oleh demam berdarah berkisar dari penyakit demam yang relatif ringan ke kondisi yang mengancam jiwa ",
+    "bentuk": "Virus dengue berbentuk bulat dengan diameter sekitar 50 nm.",
+    "penyebaranGejalaAwal": "Demam Dengue (Dengue Fever) Demam tinggi mendadak. Nyeri otot dan sendi Sakit kepala berat,  Mual, muntah, dan ruam kulit. Dengue Berat Pendarahan spontan (mimisan, gusi berdarah, bintik merah di kulit). Penurunan tekanan darah Gangguan fungsi organ seperti hati, ginjal, atau jantung.",
+    "tempatDitemukan": "Kawasan Perkotaan dan Padat Penduduk,Area dengan Musim Hujan",
+    "caraPencegahan": "Dapat dicegah dengan Menghindari Gigitan Nyamuk, dan Vaksinasi. Untuk pengobatan Demam Dengue: Pengendalian gejala dengan antipiretik seperti parasetamol, rehidrasi, dan istirahat. danDengue Berat: Perawatan intensif di rumah sakit dengan pemantauan cairan dan fungsi organ.",
+    "images": [
+      "/images/viruses/dengue.png",
+      "/images/viruses/dengue.png",
+      "/images/viruses/dengue.png",
+      "/images/viruses/dengue.png"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "zika",
+    "penyebab": "demam kuning",
+    "pengertian": "Virus Zika merupakan salah satu jenis arbovirus dari genus Flavivirus. Virus ini memiliki hubungan filogenetik yang sangat erat dengan arbovirus lainnya seperti Dengue, Demam Kuning, Japanese Enchepalitis, dan West Nile Virus. Virus ini pertama kali teridentifikasi pada tahun 1947 yang ditemukan pada air liur monyet pada sebuah studi penyakit Demam Kuning. Virus ini diketahui pertama kali menginfeksi manusia pada tahun 1952 di Uganda dan Tanzania",
+    "bentuk": "Virus Zika berbentuk bulat dengan diameter sekitar 50 nm.",
+    "penyebaranGejalaAwal": "Gejala Ringan Demam ringan. Ruam kulit.Nyeri sendi dan otot. mata merah Sakit kepala. Komplikasi Serius Pada bayi baru lahir: Mikrosefali, gangguan penglihatan, gangguan pendengaran, dan keterlambatan perkembangan. Pada orang dewasa: Sindrom Guillain-Barré, yang menyebabkan kelumpuhan sementara.",
+    "tempatDitemukan": "Virus Zika umum ditemukan di wilayah tropis dan subtropis. Kawasan Perkotaan dan Padat Penduduk,Area dengan Musim Hujan",
+    "caraPencegahan": "Pencegahan gigitan nyamuk dan pengendalian lingkungan adalah langkah kunci untuk meminimalkan risiko penyebarannya",
+    "images": [
+      "/images/viruses/zika.png",
+      "/images/viruses/zika.png",
+      "/images/viruses/zika.png",
+      "/images/viruses/zika.png"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "chikungunya",
+    "penyebab": "chikungunya",
+    "pengertian": "Chikungunya adalah penyakit virus yang ditularkan oleh nyamuk yang bisa menyebabkan demam tiba-tiba dan nyeri sendi yang parah. Tanda dan gejala lain termasuk kelelahan, nyeri otot, sakit kepala, dan ruam. Tanda dan gejala chikungunya biasanya muncul dalam dua sampai tujuh hari setelah digigit nyamuk yang terinfeksi.",
+    "bentuk": "Virus chikungunya berbentuk bulat dengan diameter sekitar 70 nm.",
+    "penyebaranGejalaAwal": "Demam tinggi mendadak nyeri sendi parah sering di tangan, kaki, lutut, dan pergelangan. Sakit kepala. Ruam kulit (seringkali berupa bintik-bintik merah). Nyeri otot. Pembengkakan sendi.",
+    "tempatDitemukan": "Kawasan Perkotaan dan Padat Penduduk,Area dengan Musim Hujan dan tempat banyak kubangan air",
+    "caraPencegahan": "Pencegahan gigitan nyamuk dan pengendalian lingkungan adalah langkah kunci untuk meminimalkan risiko penyebarannya.",
+    "images": [
+      "/images/viruses/chikungunya.png",
+      "/images/viruses/chikungunya.png",
+      "/images/viruses/chikungunya.png",
+      "/images/viruses/chikungunya.png"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "west nile",
+    "penyebab": "west nile",
+    "pengertian": "Virus West Nile (WNV) adalah virus yang menyebabkan penyakit West Nile, yang umumnya menyerang sistem saraf manusia, burung, dan hewan lain. Virus ini termasuk dalam famili Flaviviridae dan genus Flavivirus, seperti virus dengue dan Zika.",
+    "bentuk": "Virus ini berbentuk bulat dengan diameter sekitar 50 nm.",
+    "penyebaranGejalaAwal": "WNV pertama kali diidentifikasi pada tahun 1937 di Distrik West Nile, Uganda. Sejak itu, virus ini telah menyebar ke berbagai wilayah, termasuk Afrika, Eropa, Asia, Timur Tengah, dan Amerika. Gejala: Demam mendadak. Sakit kepala. Nyeri otot dan sendi. Mual, muntah, dan ruam kulit. Peradangan pada selaput otak. Peradangan pada jaringan otak, menyebabkan kebingungan, kejang, atau koma",
+    "tempatDitemukan": "Wilayah yang kaya akan populasi burung, seperti hutan, rawa, dan daerah dengan taman-taman besar, sering menjadi area di mana virus ini bertahan dan menyebar. Area Genangan Air, Daerah Perkotaan dan Pedesaan",
+    "caraPencegahan": "Pencegahan gigitan nyamuk dan pengendalian lingkungan adalah langkah kunci untuk meminimalkan risiko penyebarannya. Vaksin juga tersedia untuk melindungi kuda, yang juga rentan terhadap infeksi virus West Nile.",
+    "images": [
+      "/images/viruses/west-nile.png",
+      "/images/viruses/west-nile.png",
+      "/images/viruses/west-nile.png",
+      "/images/viruses/west-nile.png"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "polio",
+    "penyebab": "polio",
+    "pengertian": "Polio, suatu penyakit virus yang pernah menjadi penyebab utama kelumpuhan pada anak-anak di seluruh dunia, hampir berhasil diberantas.",
+    "bentuk": "virus terkecil, yang memiliki panjang tubuh hanya 25 nu.",
+    "penyebaranGejalaAwal": "Penyakit polio pertama terjadi di Eropa  pada abad ke-18, dan menyebar ke Amerika Serikat beberapa tahun kemudian. Replikasi awal virus pada sel yang rentan infeksi di faring dan saluran cerna sebagian besar akan menimbulkan viremia minor dan singkat, serta asimtomatik.",
+    "tempatDitemukan": "Di tulang belakang",
+    "caraPencegahan": "Terapi dan vaksin.",
+    "images": [
+      "/images/viruses/polio.png",
+      "/images/viruses/polio.png",
+      "/images/viruses/polio.png",
+      "/images/viruses/polio.png"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "rabies",
+    "penyebab": "rabies",
+    "pengertian": "Rabies merupakan penyakit virus yang menyebabkan peradangan otak akut pada manusia dan hewan berdarah panas lain.",
+    "bentuk": "Virus rabies seperti  peluru  dengan  diameter 75  nm  X  180  nm,  dapat  dibagi  menjadi  unit struktural  dan  unit  fungsional.",
+    "penyebaranGejalaAwal": "Terdeteksi awal  kemunculannya  tahun  2008 Di kabupaten Badung, virus rabies menelan korban 4 jiwa.Pasien mengeluh tidak bisa menelan dan takut air,gelisah, hipersalivasi, pasien  sensitif  terhadap  suara,  sesak,  sulit menelan, takut angin,pasien hendak menggigit dan hidrofobia, aerofobia dan hipersalivasi",
+    "tempatDitemukan": "gigitan atau goresan yang mengandung air liur hewan terinfeksi virus rabies",
+    "caraPencegahan": "Vaksin pada hewan peliharaan, mencuci luka gigitan atau goresan sesegera mungkin dengan sabun",
+    "images": [
+      "/images/viruses/rabies.png",
+      "/images/viruses/rabies.png",
+      "/images/viruses/rabies.png",
+      "/images/viruses/rabies.png"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "ebola",
+    "penyebab": "ebola",
+    "pengertian": "Virus Ebola disebabkan oleh infeksi virus Ebola yang disebut Ebola Virus Disease (EVD). Virus Ebola merupakan virus yang masuk kedalam family Filoviridae.",
+    "bentuk": "Virus ebola adalah anggota keluarga Filoviridae merupakan indera negatif RNA. Nama family berasal dari kata Latin filum (benang), terkait dengan virion yang terlihat seperti benang bila dilihat di bawah mikroskop elektron. Virion ebola berbentuk tubular umumnya berdiameter 80 nm dengan panjang 800 nm",
+    "penyebaranGejalaAwal": "Virus ebola pertama kali muncul di Republik Demokratik Kongo (Sihombing, 2014).Gejala awal dapat menyerupai: influenza, malaria, demam tifoid, hepatitis fulminan, sepsis, salmonellosis nontyphoidal, berbagai bentuk radang otak dan bentuk demam: berdarah dengue, kuning, Lassa, serta Marburg",
+    "tempatDitemukan": "Ditularkan dari hewan liar dan menyebar ke dalam lingkup manusia melalui penularan dari manusia ke sesamanya. ",
+    "caraPencegahan": "Tidak melakukan kontak langsung dengan individu yang terinfeksi atau tidak menggunakan alat yang sama dengan individu yang terinfeksi.",
+    "images": [
+      "/images/viruses/ebola.png",
+      "/images/viruses/ebola.png",
+      "/images/viruses/ebola.png",
+      "/images/viruses/ebola.png"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "human immunodeficiency virus(HIV)",
+    "penyebab": "Virus yang menyerang sistem kekebalan tubuh manusia",
+    "pengertian": "HIV (Human Immunodeficiency Virus), disebut human (manusia) karena virus ini hanya dapat menginfeksi manusia dan virus ini menyebabkan penyakit AIDS (Acquired Immuno Deficiency Syndrome) yaitu infeksi yang terjadi karena rusaknya sistem kekebalan tubuh",
+    "bentuk": "Memiliki bentuk bulat",
+    "penyebaranGejalaAwal": "Menurut Purwoastuti   (2015) tanda dan gejala yang tampak   pada penderita   penyakit AIDS yaitu:Saluran Pernafasan : Penderita mengalami napas pendek, henti napas sejenak, batuk, nyeri dada dan demam seperti terserang infeksi virus lainnya (pneumonia). Tidak jarang diagnosa pada Stadium awal penyakit HIV/AIDS diduga sebagai TBC. Saluran Pencernaan :Penderita penyakit AIDS menampakkan tanda dan ejala seperti hilangnya nafsu makan, mual dan muntah, sering mengalami penyakit jamur pada rongga mulut dan kerongkongan, serta mengalami diare yang kronik. Berat Badan : Tubuh Penderita mengalami hal yang disebut dengan wasting syndrome Yaitu kehilangan berat badan tubuh sehingga 10% di bawah normal karena gangguan pada sistem protein dan energi didalam tubuh seperti yang dikenal dengan malnutrisi termasuk juga karena gangguan absorbsi atau penyerapan makanan pada sistem pencernaan  yang mengakibatkan diare kronik, kondisi letih dan lemah kurang bertenaga.Sistem Persyarafan : Terjadinya gangguan pada persyarafan central yang mengakibatkan kurang ingatan, sakit  kepala, susah konsentrasi, sering tampak kebingungan dan respon gerak melambat. Pada sistem persyarafan ujung (peripheral) akan menimbulkan nyeri dan kesemutan pada telapak tangan dan kaki, refleks tendon yang kurang, selalu mengalami tensi darah rendah dan impoten. Sistem  Integumen Penderita  mengalami serangan virus cacar air (herpes simpleks) aray cacar api (herpes-zozster) dan berbagai macam penyakit    kulit yang Menimbulkan nyeri pada jaringan kulit. Mengalami infeksi  jaringan  rambut pada kulit (folluculities), kulit menjadi kering dan bercak (kulit lapisan luar retak-retak) serta Eczema atau psoriasis. Pertama kali muncul kasus HIV adalah di negara Amerika Serikat pada Mei tahun 1981",
+    "tempatDitemukan": "Di Indonesia, penularan HIV terutama disebabkan oleh hubungan seks yang tidaklah aman serta penggunaan jarum suntik yang tidak lah steril ketika menggunakan narkoba secara bersama-sama. Individu yang mengidap HIV bisa menyebarkannya pada individu lain, terlebih dalam beberapa minggu setelah terjangkit.",
+    "caraPencegahan": "tenaga kesehatan dapat memberikan penyuluhan tentang pentingnya informasi mengenai HIV/AIDS secara teratur dan merata sehingga dapat memajukan kesehatan lapisan masyarakat khususnya remaja, bagi sekolah diharapkan untuk lebih meningkatkan lagi pembelajaran tentang waspada penyakit HIV/AIDS dan dampaknya bagi kesehatan",
+    "images": [
+      "/images/viruses/hiv.png",
+      "/images/viruses/hiv.png",
+      "/images/viruses/hiv.png",
+      "/images/viruses/hiv.png"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Measles",
+    "penyebab": "campak",
+    "pengertian": "Campak merupakan penyakit infeksi disebabkan oleh virus dan sangat menular",
+    "bentuk": "Virus campak merupakan spesies virus RNA berantai tunggal negatif, berselubung, tidak bersegmen, termasuk dalam genus Morbillivirus di famili Paramyxoviridae.",
+    "penyebaranGejalaAwal": "Gejala pada campak diawali dengan demam tinggi, pilek, batuk, kehilangan nafsu makan, dan konjungtivitis.Pada tahun 1963 belum adanya vaksinasi yang meluas sehingga epidemi terjadi setiap 2-3 tahun dan menyebabkan 2,6 juta kematian setiap tahun",
+    "tempatDitemukan": "Campak menyebar  terutama  pada anak-anak di bawah usia 5 tahu.,",
+    "caraPencegahan": "Penatalaksanaan pasien campak terdiri dari terapi suportif dan pemberian vitamin A. Pencegahan dilakukan dengan vaksinasi campak-gondong-rubella (MMR). ",
+    "images": [
+      "/images/viruses/measles.png",
+      "/images/viruses/measles.png",
+      "/images/viruses/measles.png",
+      "/images/viruses/measles.png"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "mumps",
+    "penyebab": "gondongan",
+    "pengertian": "virus gondongan merupakan bagian dari virus RNA Paramyxoviridae",
+    "bentuk": "Virus ini umumnya berbentuk bulat, tetapi terdapat pleomorfisme yang jelas. Ukurannya bervariasi dari 100 hingga 600 nm.",
+    "penyebaranGejalaAwal": "Gejala prodromal meliputi demam ringan, malaise, anoreksia, dan sakit kepala ",
+    "tempatDitemukan": "Gondongan adalah penyakit anak usia sekolah dan memiliki distribusi di seluruh dunia. Penyakit ini umumnya didapat di sekolah dan menyebar ke anggota keluarga yang rentan. Infeksi jarang terjadi pada bayi yang berusia di bawah 1 tahun, mungkin sebagai akibat dari antibodi ibu yang didapat secara pasif.",
+    "caraPencegahan": "Penyakit gondongan dapat dicegah dengan pemberian vaksin, yang sering diberikan dalam kombinasi dengan vaksin lain, seperti vaksin kombinasi campak-gondongan-rubela (MMR).",
+    "images": [
+      "/images/viruses/mumps.png",
+      "/images/viruses/mumps.png",
+      "/images/viruses/mumps.png",
+      "/images/viruses/mumps.png"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "rubella",
+    "penyebab": "rubella",
+    "pengertian": "Rubella adalah penyakit virus ringan yang biasanya terjadi pada anak-anak dan orang dewasa muda yang tidak kebal.",
+    "bentuk": "virus ini adalah virus RNA untai tunggal dengan amplop positif",
+    "penyebaranGejalaAwal": "Selain ruam, beberapa gejala rubella  lain yang dapat terjadi adalah: Demam, Batuk, Pilek dan hidung tersumbat, Mata merah (konjungtivitis), Sakit kepala, Sakit tenggorokan, Nyeri sendi, terutama pada remaja wanita Muncul benjolan di sekitar telinga dan leher, akibat pembengkakan kelenjar getah beningGejala yang timbul akibat rubella biasanya ringan sehingga sulit terdeteksi. Namun, begitu seseorang terinfeksi, virus akan menyebar ke seluruh tubuh dalam waktu 5-7 hari.",
+    "tempatDitemukan": "puncak insiden rubella terjadi pada anak-anak berusia 5 hingga 9 tahun, dan angka puncak biasanya terjadi pada akhir musim dingin dan awal musim sem",
+    "caraPencegahan": "Penyakit gondongan dapat dicegah dengan pemberian vaksin, yang sering diberikan dalam kombinasi dengan vaksin lain, seperti vaksin kombinasi campak-gondongan-rubela (MMR).",
+    "images": [
+      "/images/viruses/rubella.png",
+      "/images/viruses/rubella.png",
+      "/images/viruses/rubella.png",
+      "/images/viruses/rubella.png"
     ]
   }
 ]

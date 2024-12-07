@@ -1,0 +1,50 @@
+{
+  "sdfgsf": "",
+  "images": [
+    {
+      "name": "Dhendi Syafa A. P",
+      "nim": "2405380",
+      "image": "/images/members/dhen.png"
+    },
+    {
+      "name": "Citra Syavira R",
+      "nim": "2401355",
+      "image": "/images/members/cit.png"
+    },
+    {
+      "name": "Ariel Hidayatul Faqih",
+      "nim": "2401265",
+      "image": "/images/members/ril.png"
+    },
+    {
+      "name": "Najmi Nur Layaliani",
+      "nim": "2407671",
+      "image": "/images/members/mi.png"
+    },
+    {
+      "name": "Bhismart Sopian S",
+      "nim": "2406515",
+      "image": "/images/members/bis.png"
+    },
+    {
+      "name": "Kaisya Azzahra S",
+      "nim": "2405436",
+      "image": "/images/members/kai.png"
+    },
+    {
+      "name": "Muhammad Ikman M",
+      "nim": "2406458",
+      "image": "/images/members/man.png"
+    },
+    {
+      "name": "Septin Sehawati Br P",
+      "nim": "2400923",
+      "image": "/images/members/tin.png"
+    },
+    {
+      "name": "Naufal Dzaky",
+      "nim": "2406448",
+      "image": "/images/members/ky.png"
+    }
+  ]
+}

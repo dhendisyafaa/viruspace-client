@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Manakah berikut ini yang merupakan virus yang ditularkan melalui nyamuk?",
+    "option": {
+      "a": "Virus influenza",
+      "b": "Virus dengue",
+      "c": "Virus rabies",
+      "d": "Virus polio"
+    },
+    "answer": "b",
+    "reason": "Virus dengue ditularkan melalui gigitan langsung pada tubuh oleh nyamuk Aedes Aegypti atau Aedes Albopictus."
+  },
+  {
+    "id": 2,
+    "question": "Virus mana yang menyerang sistem kekebalan tubuh manusia?",
+    "option": {
+      "a": "Virus hepatitis",
+      "b": "Virus chikungunya",
+      "c": "Virus human immunodeficiency virus (HIV)",
+      "d": "Virus ebola"
+    },
+    "answer": "c",
+    "reason": "HIV menyerang sel T-CD4, komponen penting dalam sistem kekebalan tubuh manusia, sehingga menyebabkan imunodefisiensi dan menyebabkan tubuh lemah."
+  },
+  {
+    "id": 3,
+    "question": "Gejala khas yang biasanya dialami oleh pasien chikungunya adalah",
+    "option": {
+      "a": "Diare dan dehidrasi",
+      "b": "Demam tinggi dan nyeri sendi",
+      "c": "Batuk kronis dan sesak napas",
+      "d": "Ruam kulit tanpa demam"
+    },
+    "answer": "b",
+    "reason": "Gejala utama chikungunya adalah demam mendadak disertai nyeri sendi yang parah, sering kali pada pergelangan tangan, lutut, atau pergelangan kaki."
+  },
+  {
+    "id": 4,
+    "question": "Berikut virus yang termasuk dalam famili Orthomyxoviridae adalah",
+    "option": {
+      "a": "Virus Syncytial Respirasi (RSV)",
+      "b": "Varicella-Zoster Virus (VZV)",
+      "c": "Influenza (flu)",
+      "d": "Herpes Simplex Virus (HSV)"
+    },
+    "answer": "c",
+    "reason": "Yang termasuk ke dalam famili Orthomyxoviridae hanyalah semua jenis virus influenza."
+  },
+  {
+    "id": 5,
+    "question": "Jawaban yang benar tentang virus-virus yang menyebar di tempat umum adalah",
+    "option": {
+      "a": "Pilek, flu, RSV",
+      "b": "Pilek, HPV, flu",
+      "c": "Rubella, HIV, HPV",
+      "d": "Norovirus, HIV, HPV"
+    },
+    "answer": "a",
+    "reason": "3 virus yang menyebar di tempat umum di dalam opsi yang benar semua adalah opsi a yaitu pilek, flu, RSV."
+  },
+  {
+    "id": 6,
+    "question": "Virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer adalah virus",
+    "option": {
+      "a": "VZV",
+      "b": "HPV",
+      "c": "HSV",
+      "d": "HIV"
+    },
+    "answer": "a",
+    "reason": "Virus VZV adalah virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer."
+  },
+  {
+    "id": 7,
+    "question": "Virus yang pertama kali menyebar di Tiongkok awal Januari 2020 adalah virus",
+    "option": {
+      "a": "HPV",
+      "b": "SARS-CoV-2",
+      "c": "HIV",
+      "d": "Flu"
+    },
+    "answer": "b",
+    "reason": "Virus SARS-CoV-2 pertama kali menyebar di Tiongkok awal Januari 2020."
+  },
+  {
+    "id": 8,
+    "question": "agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif, juga diselubungi oleh lipid.",
+    "option": {
+      "a": "Virus Syncytial Respirasi(infeksi saluran pernafasan)",
+      "b": "SARS-CoV-2",
+      "c": "HIV",
+      "d": "Flu"
+    },
+    "answer": "b",
+    "reason": "SARS-CoV-2 adalah Virus yang pertama kali menyebar di tiongkok awal januari 2020"
+  },
+  {
+    "id": 9,
+    "question": "Apa dampak utama dari infeksi rubella pada wanita hamil?",
+    "option": {
+      "a": "Tidak ada dampak yang signifikan",
+      "b": "Menyebabkan demam tinggi",
+      "c": "Menyebabkan cacat lahir pada janin",
+      "d": "Menyebabkan pendarahan pada ibu hamil"
+    },
+    "answer": "c",
+    "reason": "Infeksi rubella pada wanita hamil, terutama pada trimester pertama, sangat berbahaya bagi janin. Virus rubella dapat menyebabkan kelainan kongenital seperti katarak, gangguan pendengaran, dan cacat jantung pada bayi yang dilahirkan. Ini dikenal sebagai sindrom rubella kongenital."
+  },
+  {
+    "id": 10,
+    "question": "Virus yang ditularkan melalui gigitan nyamuk Aedes aegypti dan Aedes albopictus yang terinfeksi adalah virus",
+    "option": {
+      "a": "Virus Dengue",
+      "b": "Virus Zika ",
+      "c": "Virus West Nile",
+      "d": "Polio"
+    },
+    "answer": "a",
+    "reason": "Virus Dengue adalah virus yang menyebabkan penyakit demam dengue, yang umumnya ditularkan melalui gigitan nyamuk Aedes aegypti dan Aedes albopictus yang terinfeksi."
+  }
+]

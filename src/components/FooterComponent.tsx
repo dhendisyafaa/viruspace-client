@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function FooterComponent() {
+  const year = new Date().getFullYear();
   return (
     <div className="bg-primary text-primary-foreground">
       <div className="w-[90%] mx-auto py-6 space-y-5">
@@ -52,7 +53,7 @@ export default function FooterComponent() {
           </div>
         </div>
         <div className="text-xs uppercase text-center">
-          copyright &copy; 2024 by avenir tech
+          copyright &copy; {year} by viruspace
         </div>
       </div>
     </div>

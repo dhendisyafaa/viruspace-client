@@ -7,7 +7,7 @@ export default function AnimationViruses() {
       <Image
         src={"/gif/virus-animation.gif"}
         alt="virus"
-        layout="fill"
+        fill
         objectFit="cover"
         unoptimized={true}
       />
