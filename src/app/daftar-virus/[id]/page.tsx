@@ -30,7 +30,7 @@ export default async function DetailVirus({
     <div className="container p-4 mx-auto gap-5 grid grid-cols-1 md:grid-cols-2">
       <DetailVirusImage images={virusById?.images} />
       <div className="pb-10">
-        <div className="p-4 w-full sticky top-0 bg-[#fff8f3]">
+        <div className="p-4 w-full space-y-1 sticky top-0 bg-[#fff8f3]">
           <p className="text-primary uppercase text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
             {virusById?.name}
           </p>
