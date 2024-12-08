@@ -3,11 +3,20 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function QuizPage() {
   const [player, setPlayer] = useState({ name: "", score: 0 });
   const { push } = useRouter();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const storedData = localStorage.getItem("viruspace-quiz");
+      if (storedData) {
+        setPlayer(JSON.parse(storedData));
+      }
+    }
+  }, []);
 
   const handleOnInputPlayerName = (e) => {
     const { value } = e.target;
