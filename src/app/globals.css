@@ -8,6 +8,16 @@ body {
   /* background-color: #f3f3f6; */
 }
 
+.iframe-container {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+}
+
 /* 
 207 28% 35% = #405D72
 210 13% 52% = #758694
