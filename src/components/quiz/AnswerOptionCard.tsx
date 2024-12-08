@@ -3,11 +3,13 @@ import React, { useRef } from "react";
 type AnswerOptionCardProps = {
   answerKey: string;
   label: string;
+  selectedAnswer: string | null;
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
 export default function AnswerOptionCard({
   answerKey,
   label,
+  selectedAnswer,
   ...props
 }: AnswerOptionCardProps) {
   const radioRef = useRef<HTMLInputElement>(null);
@@ -31,6 +33,7 @@ export default function AnswerOptionCard({
         type="radio"
         name="option"
         value={answerKey}
+        checked={selectedAnswer === answerKey}
         className="hidden before:hidden after:hidden"
         {...props}
       />
