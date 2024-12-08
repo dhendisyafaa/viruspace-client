@@ -118,5 +118,11 @@
     "name": "mumps",
     "image": "/images/viruses/mumps.png",
     "bgColor": "#7B8C83"
+  },
+  {
+    "id": 21,
+    "name": "rubella",
+    "image": "/images/viruses/rubella.png",
+    "bgColor": "#13438F"
   }
 ]
