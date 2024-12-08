@@ -87,13 +87,13 @@
     "id": 8,
     "question": "agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif, juga diselubungi oleh lipid.",
     "option": {
-      "a": "Virus Syncytial Respirasi(infeksi saluran pernafasan)",
+      "a": "Virus Syncytial Respirasi (infeksi saluran pernafasan)",
       "b": "SARS-CoV-2",
       "c": "HIV",
       "d": "Flu"
     },
-    "answer": "b",
-    "reason": "SARS-CoV-2 adalah Virus yang pertama kali menyebar di tiongkok awal januari 2020"
+    "answer": "a",
+    "reason": "Virus Syncytial Respirasi adalah agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif,  juga diselubungi oleh lipid."
   },
   {
     "id": 9,
