@@ -33,6 +33,8 @@ function QuizQuestionList() {
   useEffect(() => {
     const question = questionData.find(({ id }) => id === Number(q)) || null;
     setCurrentQuestion(question);
+    setSelectedAnswer(null);
+    setIsCorrect(null);
   }, [q]);
 
   const handleOnSelectAnswer = (e) => {
@@ -61,8 +63,6 @@ function QuizQuestionList() {
     } else {
       push(`/quiz/question?q=${currentQuestion.id + 1}`);
     }
-
-    return window.location.reload();
   };
 
   if (!currentQuestion) return <QuizSkeleton />;
@@ -84,6 +84,7 @@ function QuizQuestionList() {
                   key={idx}
                   answerKey={answerKey}
                   label={label}
+                  selectedAnswer={selectedAnswer}
                   onChange={handleOnSelectAnswer}
                   disabled={isCorrect != null}
                 />
