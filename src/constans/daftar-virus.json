@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "common cold",
-    "image": "/images/viruses/common-cold.png",
+    "image": "/images/viruses/common-cold/common-cold.png",
     "bgColor": "#3D3A3A"
   },
   {
     "id": 2,
     "name": "sars-cov-2",
-    "image": "/images/viruses/sars-cov-2.png",
+    "image": "/images/viruses/sars-cov-2/sars-cov-2.png",
     "bgColor": "#858486"
   },
   {
     "id": 3,
     "name": "varicella zoaster",
-    "image": "/images/viruses/varicella-zoaster.png",
+    "image": "/images/viruses/varicella-zoster/varicella-zoaster.png",
     "bgColor": "#46762C"
   },
   {
@@ -26,103 +26,103 @@
   {
     "id": 5,
     "name": "influenza",
-    "image": "/images/viruses/influenza.png",
+    "image": "/images/viruses/influenza/influenza.png",
     "bgColor": "#156773"
   },
   {
     "id": 6,
     "name": "syncytial resparasi",
-    "image": "/images/viruses/syncytial-resparasi.png",
+    "image": "/images/viruses/syncytial-resparasi/syncytial-resparasi.png",
     "bgColor": "#6755AC"
   },
   {
     "id": 7,
     "name": "herves simplex",
-    "image": "/images/viruses/herves-simplex.png",
+    "image": "/images/viruses/herves-simplex/herves-simplex.png",
     "bgColor": "#D3491A"
   },
   {
     "id": 8,
     "name": "norovirus",
-    "image": "/images/viruses/norovirus.png",
+    "image": "/images/viruses/norovirus/norovirus.png",
     "bgColor": "#02327C"
   },
   {
     "id": 9,
     "name": "rotavirus",
-    "image": "/images/viruses/rotavirus.png",
+    "image": "/images/viruses/rotavirus/rotavirus.png",
     "bgColor": "#6B182A"
   },
   {
     "id": 10,
     "name": "hepatitis a, b, dan c",
-    "image": "/images/viruses/hepatitis-a-b-dan-c.png",
+    "image": "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c.png",
     "bgColor": "#4E625E"
   },
   {
     "id": 11,
     "name": "dengue",
-    "image": "/images/viruses/dengue.png",
+    "image": "/images/viruses/dengue/dengue.png",
     "bgColor": "#0E663C"
   },
   {
     "id": 12,
     "name": "zika",
-    "image": "/images/viruses/zika.png",
+    "image": "/images/viruses/zika/zika.png",
     "bgColor": "#847A0F"
   },
   {
     "id": 13,
     "name": "chikungunya",
-    "image": "/images/viruses/chikungunya.png",
+    "image": "/images/viruses/chikungunya/chikungunya.png",
     "bgColor": "#7D356D"
   },
   {
     "id": 14,
     "name": "west nile",
-    "image": "/images/viruses/west-nile.png",
+    "image": "/images/viruses/west-nile/west-nile.png",
     "bgColor": "#062C31"
   },
   {
     "id": 15,
     "name": "polio",
-    "image": "/images/viruses/polio.png",
+    "image": "/images/viruses/polio/polio.png",
     "bgColor": "#3F564F"
   },
   {
     "id": 16,
     "name": "rabies",
-    "image": "/images/viruses/rabies.png",
+    "image": "/images/viruses/rabies/rabies.png",
     "bgColor": "#13525E"
   },
   {
     "id": 17,
     "name": "ebola",
-    "image": "/images/viruses/ebola.png",
+    "image": "/images/viruses/ebola/ebola.png",
     "bgColor": "#542718"
   },
   {
     "id": 18,
     "name": "hiv",
-    "image": "/images/viruses/hiv.png",
+    "image": "/images/viruses/hiv/hiv.png",
     "bgColor": "#4A8373"
   },
   {
     "id": 19,
     "name": "measles",
-    "image": "/images/viruses/measles.png",
+    "image": "/images/viruses/measles/measles.png",
     "bgColor": "#213B55"
   },
   {
     "id": 20,
     "name": "mumps",
-    "image": "/images/viruses/mumps.png",
+    "image": "/images/viruses/mumps/mumps.png",
     "bgColor": "#7B8C83"
   },
   {
     "id": 21,
     "name": "rubella",
-    "image": "/images/viruses/rubella.png",
+    "image": "/images/viruses/rubella/rubella.png",
     "bgColor": "#13438F"
   }
 ]
