@@ -31,11 +31,11 @@ export default function DeveloperPage() {
         {developerData.images.map((dev, idx) => {
           return (
             <div key={idx}>
-              <div className="relative aspect-square">
+              <div className="relative aspect-square rounded-xl overflow-hidden">
                 <Image src={dev.image} alt={dev.name} fill objectFit="cover" />
               </div>
-              <div className="mt-3 text-primary">
-                <p className="font-bold text-sm sm:text-base lg:text-3xl">
+              <div className="mt-3 text-primary text-center md:text-left">
+                <p className="font-bold text-sm sm:text-base lg:text-2xl">
                   {dev.name}
                 </p>
                 <p className="font-medium text-xs sm:text-sm lg:text-xl">
