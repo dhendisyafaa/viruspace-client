@@ -1,14 +1,8 @@
 "use client";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
 import videoContent from "../../constans/video-learning.json";
 
 export default function LearningVideoPage() {
-  const autoplayDuration = 5000;
+  // const autoplayDuration = 5000;
 
   return (
     <div className="container px-4 pb-10 mx-auto space-y-10">
@@ -34,8 +28,22 @@ export default function LearningVideoPage() {
           </p>
         </div>
       </div>
-      <div>
-        <Carousel
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        {videoContent.links.map((link, idx) => {
+          return (
+            <div key={idx} className="iframe-container">
+              <iframe
+                src={link}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          );
+        })}
+        {/* <Carousel
           plugins={[
             Autoplay({
               delay: autoplayDuration,
@@ -67,7 +75,7 @@ export default function LearningVideoPage() {
               );
             })}
           </CarouselContent>
-        </Carousel>
+        </Carousel> */}
       </div>
     </div>
   );
