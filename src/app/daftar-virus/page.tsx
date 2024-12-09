@@ -6,15 +6,17 @@ export default function ListOfViruses() {
   return (
     <div className="w-[90vw] pb-10 mx-auto">
       <div className="text-center pb-10 space-y-3">
-        <p className="text-xl md:text-3xl font-bold text-primary uppercase">
-          Pelajari virus-virus di sekitar kita
+        <p className="text-xl md:text-3xl font-extrabold text-primary uppercase">
+          Apa Itu virus?
         </p>
         <p className="text-base mx-auto md:text-xl md:w-[60vw] text-primary">
-          Lihat{" "}
-          <span className="font-bold">
-            penjelasan lengkap, cara pencegahan, dan penyebaran
-          </span>{" "}
-          tentang virus di sekitar
+          Virus adalah{" "}
+          <span className="font-bold">mikroorganisme yang sangat kecil</span>,
+          bahkan lebih kecil dari bakteri dan hanya dapat dilihat menggunakan
+          mikroskop elektron. Virus memiliki struktur yang sangat sederhana,
+          terdiri dari{" "}
+          <span className="font-bold">materi genetik (DNA atau RNA)</span> yang
+          dilindungi oleh lapisan protein (kapsid)
         </p>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 lg:gap-8">

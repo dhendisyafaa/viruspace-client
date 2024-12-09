@@ -14,13 +14,13 @@
   {
     "id": 3,
     "name": "varicella zoaster",
-    "image": "/images/viruses/varicella-zoster/varicella-zoaster.png",
+    "image": "/images/viruses/varicella-zoaster/varicella-zoaster.png",
     "bgColor": "#46762C"
   },
   {
     "id": 4,
     "name": "human papillomavirus",
-    "image": "/images/viruses/human-papillomavirus.png",
+    "image": "/images/viruses/human-papillomavirus/human-papillomavirus.png",
     "bgColor": "#A13032"
   },
   {
@@ -37,8 +37,8 @@
   },
   {
     "id": 7,
-    "name": "herves simplex",
-    "image": "/images/viruses/herves-simplex/herves-simplex.png",
+    "name": "herpes simplex",
+    "image": "/images/viruses/herpes-simplex/herpes-simplex.png",
     "bgColor": "#D3491A"
   },
   {

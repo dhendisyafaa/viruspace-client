@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { DialogTitle } from "@radix-ui/react-dialog";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { useState } from "react";
@@ -74,6 +75,7 @@ export default function DetailVirusImage({ images }) {
       </Carousel>
       <Dialog open={openModal} onOpenChange={setOpenModal}>
         <DialogContent>
+          <DialogTitle className="sr-only">Detail virus</DialogTitle>
           <Carousel
             plugins={[
               Autoplay({
