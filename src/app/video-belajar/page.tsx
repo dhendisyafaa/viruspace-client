@@ -1,9 +1,8 @@
 "use client";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import videoContent from "../../constans/video-learning.json";
 
 export default function LearningVideoPage() {
-  // const autoplayDuration = 5000;
-
   return (
     <div className="container px-4 pb-10 mx-auto space-y-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto items-center">
@@ -29,53 +28,28 @@ export default function LearningVideoPage() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-        {videoContent.links.map((link, idx) => {
+        {videoContent.links.map((video, idx) => {
           return (
-            <div key={idx} className="iframe-container">
-              <iframe
-                src={link}
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-            </div>
+            <Card key={idx}>
+              <div className="iframe-container">
+                <iframe
+                  className="rounded-lg"
+                  src={video.link}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <CardHeader className="p-3">
+                <CardTitle className="uppercase text-primary text-lg">
+                  {video.virusName}
+                </CardTitle>
+              </CardHeader>
+            </Card>
           );
         })}
-        {/* <Carousel
-          plugins={[
-            Autoplay({
-              delay: autoplayDuration,
-              stopOnMouseEnter: true,
-            }),
-          ]}
-          opts={{
-            loop: true,
-          }}
-        >
-          <CarouselContent>
-            {videoContent.links.map((link, idx) => {
-              return (
-                <CarouselItem
-                  key={idx}
-                  className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4"
-                >
-                  <div className="iframe-container">
-                    <iframe
-                      src={link}
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </CarouselItem>
-              );
-            })}
-          </CarouselContent>
-        </Carousel> */}
       </div>
     </div>
   );

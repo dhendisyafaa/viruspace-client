@@ -6,13 +6,110 @@
     "bisa menjadi topik yang rumit, tapi dengan video pembelajaran ini, kamu akan lebih mudah memahaminya!"
   ],
   "links": [
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p",
-    "https://www.youtube.com/embed/kufvGibHWTM?si=koqfn2xD4Ni3TL0p"
+    {
+      "id": 1,
+      "virusName": "common cold",
+      "link": "https://www.youtube.com/embed/OzAe-J9tJXw?si=bWmxvoCFf8k9EgV1"
+    },
+    {
+      "id": 2,
+      "virusName": "sars-cov-2",
+      "link": "https://www.youtube.com/embed/tc-tMOUIDMQ?si=bc2c9CLFfYK_VhyD"
+    },
+    {
+      "id": 3,
+      "virusName": "varicella zoaster",
+      "link": "https://www.youtube.com/embed/ubOjvUAx-C0?si=_K_nECT-_qfCe3Im"
+    },
+    {
+      "id": 4,
+      "virusName": "human papillomavirus",
+      "link": "https://www.youtube.com/embed/Qn45Ekp5twE?si=Z_xIJqCUvF3SotfJ"
+    },
+    {
+      "id": 5,
+      "virusName": "influenza",
+      "link": "https://www.youtube.com/embed/KKU0p03Zw4Y?si=BZWKu3ZLPth6N2Ee"
+    },
+    {
+      "id": 6,
+      "virusName": "virus syncytial resparasi",
+      "link": "https://www.youtube.com/embed/eXLvkQy5JQc?si=ZKKIpr3EFiXEeRF3"
+    },
+    {
+      "id": 7,
+      "virusName": "herpes simplex",
+      "link": "https://www.youtube.com/embed/4-oY4oi5lDw?si=DRkAhyeZogVZLCz2"
+    },
+    {
+      "id": 8,
+      "virusName": "norovirus",
+      "link": "https://www.youtube.com/embed/N78ivM6Cnko?si=zwosIIhjlc9NXdN0"
+    },
+    {
+      "id": 9,
+      "virusName": "rotavirus",
+      "link": "https://www.youtube.com/embed/vfdhvrbn1SE?si=cY2XcBO-yRJuwUu0"
+    },
+    {
+      "id": 10,
+      "virusName": "hepatitis a, b, dan c",
+      "link": "https://www.youtube.com/embed/3qOiIUH0nMA?si=ntQrzhF3F2NPawhX"
+    },
+    {
+      "id": 11,
+      "virusName": "dengue",
+      "link": "https://www.youtube.com/embed/Q4eUd64dJRI?si=q3iuF5IA5k12KKJS"
+    },
+    {
+      "id": 12,
+      "virusName": "zika",
+      "link": "https://www.youtube.com/embed/kWPDWsv8MdE?si=fc86GJZD8iOFDY5A"
+    },
+    {
+      "id": 13,
+      "virusName": "chikungunya",
+      "link": "https://www.youtube.com/embed/BMRV5zQV07E?si=RiX7a1iuspEro8o2"
+    },
+    {
+      "id": 14,
+      "virusName": "west nile",
+      "link": "https://www.youtube.com/embed/iV24JbvdK9I?si=_bVMX3jv7I6ept3j"
+    },
+    {
+      "id": 15,
+      "virusName": "polio",
+      "link": "https://www.youtube.com/embed/yem3KCTtbK8?si=0TSli80LsAlMj7c1"
+    },
+    {
+      "id": 16,
+      "virusName": "rabies",
+      "link": "https://www.youtube.com/embed/99W8c5f6IQs?si=17HZfYHXW3aQ9n3n"
+    },
+    {
+      "id": 17,
+      "virusName": "ebola",
+      "link": "https://www.youtube.com/embed/sRv19gkZ4E0?si=Vx8_uYJ58Ep7tFu6"
+    },
+    {
+      "id": 18,
+      "virusName": "hiv",
+      "link": "https://www.youtube.com/embed/dAXmTtWTirw?si=74p6cEvR_4deZN1f"
+    },
+    {
+      "id": 19,
+      "virusName": "measles",
+      "link": "https://www.youtube.com/embed/O7RPyrS0RNI?si=9ll2SI9b28PiLL6B"
+    },
+    {
+      "id": 20,
+      "virusName": "mumps",
+      "link": "https://www.youtube.com/embed/s3ACcn8IWFc?si=7itSFVzCE5Yqw0eD"
+    },
+    {
+      "id": 21,
+      "virusName": "rubella",
+      "link": "https://www.youtube.com/embed/Z7gXMnDuyF4?si=r22dsHf1b3zjP36D"
+    }
   ]
 }

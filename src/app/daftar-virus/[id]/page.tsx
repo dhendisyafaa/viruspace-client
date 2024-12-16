@@ -29,7 +29,7 @@ export default async function DetailVirus({
   return (
     <div className="container px-4 mx-auto gap-5 grid grid-cols-1 md:grid-cols-2">
       <DetailVirusImage images={virusById?.images} />
-      <div className="pb-10">
+      <div className="pb-10 space-y-5">
         <div className="p-4 w-full space-y-1 sticky top-0 bg-[#fff8f3]">
           <p className="text-primary uppercase text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
             {virusById?.name}
@@ -38,9 +38,11 @@ export default async function DetailVirus({
             {virusById?.penyebab}
           </p>
         </div>
-        {/* If you want to write it to the DOM, pass a string instead: collapsible="true" or collapsible={value.toString()} */}
         <div className="space-y-5 bg-primary text-primary-foreground p-4 rounded-3xl">
-          <Accordion type="multiple" defaultValue={["item-1"]}>
+          <Accordion
+            type="multiple"
+            defaultValue={["item-1", "item-2", "item-3", "item-4", "item-5"]}
+          >
             <AccordionItem value="item-1">
               <AccordionTrigger>PENGERTIAN</AccordionTrigger>
               <AccordionContent>{virusById?.pengertian}</AccordionContent>
@@ -64,6 +66,22 @@ export default async function DetailVirus({
               <AccordionContent>{virusById?.caraPencegahan}</AccordionContent>
             </AccordionItem>
           </Accordion>
+        </div>
+        <div className="space-y-3 bg-primary text-primary-foreground p-4 rounded-3xl">
+          <p className="font-bold font-xl">
+            Tonton video ini agar lebih mudah memahaminya!
+          </p>
+          <div className="iframe-container">
+            <iframe
+              className="rounded-3xl"
+              src={virusById?.video}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
