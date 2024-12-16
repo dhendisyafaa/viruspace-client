@@ -22,7 +22,6 @@ export default function ListOfViruses() {
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 lg:gap-8">
         {listViruses.map((virus) => {
           return (
-            // http://localhost:3000/daftar-virus/2?name=sars-cov-2
             <Link
               href={`/daftar-virus/${virus.id}?name=${virus.name}`}
               key={virus.id}

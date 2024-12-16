@@ -9,11 +9,12 @@
     "tempatDitemukan": "Tempat-tempat umum",
     "caraPencegahan": "Hindari kontak dengan org yg sedang sakit",
     "images": [
-      "/images/viruses/common-cold/common-cold.png",
       "/images/viruses/common-cold/common-cold(1).png",
       "/images/viruses/common-cold/common-cold(2).png",
+      "/images/viruses/common-cold/common-cold.png",
       "/images/viruses/common-cold/common-cold(3).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/OzAe-J9tJXw?si=bWmxvoCFf8k9EgV1"
   },
   {
     "id": 2,
@@ -25,11 +26,12 @@
     "tempatDitemukan": "Tempat perkumpulan orang orang dari berbagai negara dan daerah seperti bandara dll",
     "caraPencegahan": "Memakai masker ketika sedang di tempat umum, rajin mencuci tangan, menghindari kerumunan, dan vaksinasi.",
     "images": [
-      "/images/viruses/sars-cov-2/sars-cov-2.png",
       "/images/viruses/sars-cov-2/sars-cov-2(1).png",
       "/images/viruses/sars-cov-2/sars-cov-2(2).png",
+      "/images/viruses/sars-cov-2/sars-cov-2.png",
       "/images/viruses/sars-cov-2/sars-cov-2(3).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/tc-tMOUIDMQ?si=bc2c9CLFfYK_VhyD"
   },
   {
     "id": 3,
@@ -41,12 +43,13 @@
     "tempatDitemukan": "Virus ini bisa datang kapan saja dan dimana saja",
     "caraPencegahan": "Jaga kebersihan dan perkuat sistem imun tubuh",
     "images": [
-      "/images/viruses/varicella-zoaster/varicella-zoaster.png",
       "/images/viruses/varicella-zoaster/varicella-zoaster(1).png",
       "/images/viruses/varicella-zoaster/varicella-zoaster(2).png",
       "/images/viruses/varicella-zoaster/varicella-zoaster(3).png",
+      "/images/viruses/varicella-zoaster/varicella-zoaster.png",
       "/images/viruses/varicella-zoaster/varicella-zoaster(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/ubOjvUAx-C0?si=_K_nECT-_qfCe3Im"
   },
   {
     "id": 4,
@@ -58,12 +61,13 @@
     "tempatDitemukan": "Area genital, mulut, tenggorokan, dan kulit.",
     "caraPencegahan": "Berhubungan seks yang aman, rutin memeriksa kesehatan, hindari berbagi barang pribadi, dan vaksin.",
     "images": [
-      "/images/viruses/human-papillomavirus/human-papillomavirus.png",
       "/images/viruses/human-papillomavirus/human-papillomavirus(1).png",
       "/images/viruses/human-papillomavirus/human-papillomavirus(2).png",
       "/images/viruses/human-papillomavirus/human-papillomavirus(3).png",
+      "/images/viruses/human-papillomavirus/human-papillomavirus.png",
       "/images/viruses/human-papillomavirus/human-papillomavirus(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/Qn45Ekp5twE?si=Z_xIJqCUvF3SotfJ"
   },
   {
     "id": 5,
@@ -75,12 +79,13 @@
     "tempatDitemukan": "Di tempat tempat umum seperti rumah sakit, ruang kerja,dsb.",
     "caraPencegahan": "Makan makanan bergizi, hindari merokok, menjaga kebersihan, gunakan masker ketika di dalam kerumunan",
     "images": [
-      "/images/viruses/influenza/influenza.png",
       "/images/viruses/influenza/influenza(1).png",
       "/images/viruses/influenza/influenza(2).png",
       "/images/viruses/influenza/influenza(3).png",
+      "/images/viruses/influenza/influenza.png",
       "/images/viruses/influenza/influenza(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/KKU0p03Zw4Y?si=BZWKu3ZLPth6N2Ee"
   },
   {
     "id": 6,
@@ -92,12 +97,13 @@
     "tempatDitemukan": "Di tempat tempat umum seperti rumah sakit, ruang kerja,dsb.",
     "caraPencegahan": "Mencuci tangan, menutup mulut saat bersin atau batuk, dan hindari kontak dekat dengan orang sakit.",
     "images": [
-      "/images/viruses/syncytial-resparasi/syncytial-resparasi.png",
       "/images/viruses/syncytial-resparasi/syncytial-resparasi(1).png",
       "/images/viruses/syncytial-resparasi/syncytial-resparasi(2).png",
       "/images/viruses/syncytial-resparasi/syncytial-resparasi(3).png",
+      "/images/viruses/syncytial-resparasi/syncytial-resparasi.png",
       "/images/viruses/syncytial-resparasi/syncytial-resparasi(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/eXLvkQy5JQc?si=ZKKIpr3EFiXEeRF3"
   },
   {
     "id": 7,
@@ -109,12 +115,13 @@
     "tempatDitemukan": "Area genital, mulut, bibir, dan mata.",
     "caraPencegahan": "Cara mencegah: Gunakan kondom, batasi jumlah pasangan seksual, vaksin, hindari memakai barang pribadi bersama.Cara mengobati: Pengobatan untuk infeksi HSV oral atau genital primer pada pasien sehat biasanya diberikan secara oral selama 7–10 hari dengan asiklovir, valasiklovir, atau famsiklovir (Centers for Disease Control and Prevention, 2002). Pengobatan untuk penyakit yang kambuh dapat bersifat episodik (pengobatan pada tanda atau gejala pertama wabah) selama 1–5 hari untuk mengurangi gejala infeksi HSV atau supresif (setiap hari) untuk mencegah kekambuhan (Stanberry et al.,1999, Corey, 2002).",
     "images": [
-      "/images/viruses/herpes-simplex/herpes-simplex.png",
       "/images/viruses/herpes-simplex/herpes-simplex(1).png",
       "/images/viruses/herpes-simplex/herpes-simplex(2).png",
       "/images/viruses/herpes-simplex/herpes-simplex(3).png",
+      "/images/viruses/herpes-simplex/herpes-simplex.png",
       "/images/viruses/herpes-simplex/herpes-simplex(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/4-oY4oi5lDw?si=DRkAhyeZogVZLCz2"
   },
   {
     "id": 8,
@@ -126,12 +133,13 @@
     "tempatDitemukan": "virus ini menyebar di tempat-tempat umum, seperti fasilitas perawatan kesehatan, restoran, perkantoran, dan sekolah. Satu orang yang terinfeksi bisa dengan mudah untuk menularkannya pada orang lain.",
     "caraPencegahan": "Menjauhi orang yang terkontaminasi, menjaga kebersihan tangan, dan desinfeksi lingkungan",
     "images": [
-      "/images/viruses/norovirus/norovirus.png",
       "/images/viruses/norovirus/norovirus(1).png",
       "/images/viruses/norovirus/norovirus(2).png",
       "/images/viruses/norovirus/norovirus(3).png",
+      "/images/viruses/norovirus/norovirus.png",
       "/images/viruses/norovirus/norovirus(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/N78ivM6Cnko?si=zwosIIhjlc9NXdN0"
   },
   {
     "id": 9,
@@ -143,12 +151,13 @@
     "tempatDitemukan": "Infeksi rotavirus sangat umum terjadi pada anak-anak berusia 3-35 bulan, terutama di tempat penitipan anak dan rumah sakit",
     "caraPencegahan": "Penanganan infeksi rotavirus difokuskan pada pencegahan dan pengobatan dehidrasi, penggunaan obat antivirus dan antiemetik, vaksinasi rotavirus",
     "images": [
-      "/images/viruses/rotavirus/rotavirus.png",
       "/images/viruses/rotavirus/rotavirus(1).png",
       "/images/viruses/rotavirus/rotavirus(2).png",
       "/images/viruses/rotavirus/rotavirus(3).png",
+      "/images/viruses/rotavirus/rotavirus.png",
       "/images/viruses/rotavirus/rotavirus(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/vfdhvrbn1SE?si=cY2XcBO-yRJuwUu0"
   },
   {
     "id": 10,
@@ -160,12 +169,13 @@
     "tempatDitemukan": "Ditempat umum seperti tempat makan hingga fasilitas kesehatan karena terkontaminasi",
     "caraPencegahan": "Hepatitis A umumnya ringan dan bisa sembuh dengan sendirinya. Vaksin tersedia untuk hepatitis B, tetapi tidak ada vaksin untuk hepatitis C. Pencegahan termasuk vaksinasi (untuk hepatitis A dan B), menjaga kebersihan, dan menghindari berbagi barang-barang pribadi yang bisa terkontaminasi darah.",
     "images": [
-      "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c.png",
       "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c(1).png",
       "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c(2).png",
       "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c(3).png",
+      "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c.png",
       "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/3qOiIUH0nMA?si=ntQrzhF3F2NPawhX"
   },
   {
     "id": 11,
@@ -177,11 +187,12 @@
     "tempatDitemukan": "Kawasan Perkotaan dan Padat Penduduk,Area dengan Musim Hujan",
     "caraPencegahan": "Dapat dicegah dengan Menghindari Gigitan Nyamuk, dan Vaksinasi. Untuk pengobatan Demam Dengue: Pengendalian gejala dengan antipiretik seperti parasetamol, rehidrasi, dan istirahat. danDengue Berat: Perawatan intensif di rumah sakit dengan pemantauan cairan dan fungsi organ.",
     "images": [
-      "/images/viruses/dengue/dengue.png",
       "/images/viruses/dengue/dengue(1).png",
       "/images/viruses/dengue/dengue(2).png",
+      "/images/viruses/dengue/dengue.png",
       "/images/viruses/dengue/dengue(3).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/Q4eUd64dJRI?si=q3iuF5IA5k12KKJS"
   },
   {
     "id": 12,
@@ -193,11 +204,12 @@
     "tempatDitemukan": "Virus Zika umum ditemukan di wilayah tropis dan subtropis. Kawasan Perkotaan dan Padat Penduduk,Area dengan Musim Hujan",
     "caraPencegahan": "Pencegahan gigitan nyamuk dan pengendalian lingkungan adalah langkah kunci untuk meminimalkan risiko penyebarannya",
     "images": [
-      "/images/viruses/zika/zika.png",
       "/images/viruses/zika/zika(1).png",
       "/images/viruses/zika/zika(2).png",
+      "/images/viruses/zika/zika.png",
       "/images/viruses/zika/zika(3).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/kWPDWsv8MdE?si=fc86GJZD8iOFDY5A"
   },
   {
     "id": 13,
@@ -209,12 +221,13 @@
     "tempatDitemukan": "Kawasan Perkotaan dan Padat Penduduk,Area dengan Musim Hujan dan tempat banyak kubangan air",
     "caraPencegahan": "Pencegahan gigitan nyamuk dan pengendalian lingkungan adalah langkah kunci untuk meminimalkan risiko penyebarannya.",
     "images": [
-      "/images/viruses/chikungunya/chikungunya.png",
       "/images/viruses/chikungunya/chikungunya(1).png",
       "/images/viruses/chikungunya/chikungunya(2).png",
       "/images/viruses/chikungunya/chikungunya(3).png",
+      "/images/viruses/chikungunya/chikungunya.png",
       "/images/viruses/chikungunya/chikungunya(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/BMRV5zQV07E?si=RiX7a1iuspEro8o2"
   },
   {
     "id": 14,
@@ -226,12 +239,13 @@
     "tempatDitemukan": "Wilayah yang kaya akan populasi burung, seperti hutan, rawa, dan daerah dengan taman-taman besar, sering menjadi area di mana virus ini bertahan dan menyebar. Area Genangan Air, Daerah Perkotaan dan Pedesaan",
     "caraPencegahan": "Pencegahan gigitan nyamuk dan pengendalian lingkungan adalah langkah kunci untuk meminimalkan risiko penyebarannya. Vaksin juga tersedia untuk melindungi kuda, yang juga rentan terhadap infeksi virus West Nile.",
     "images": [
-      "/images/viruses/west-nile/west-nile.png",
       "/images/viruses/west-nile/west-nile(1).png",
       "/images/viruses/west-nile/west-nile(2).png",
       "/images/viruses/west-nile/west-nile(3).png",
+      "/images/viruses/west-nile/west-nile.png",
       "/images/viruses/west-nile/west-nile(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/iV24JbvdK9I?si=_bVMX3jv7I6ept3j"
   },
   {
     "id": 15,
@@ -243,12 +257,13 @@
     "tempatDitemukan": "Di tulang belakang",
     "caraPencegahan": "Terapi dan vaksin.",
     "images": [
-      "/images/viruses/polio/polio.png",
       "/images/viruses/polio/polio(1).png",
       "/images/viruses/polio/polio(2).png",
       "/images/viruses/polio/polio(3).png",
+      "/images/viruses/polio/polio.png",
       "/images/viruses/polio/polio(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/yem3KCTtbK8?si=0TSli80LsAlMj7c1"
   },
   {
     "id": 16,
@@ -260,12 +275,13 @@
     "tempatDitemukan": "gigitan atau goresan yang mengandung air liur hewan terinfeksi virus rabies",
     "caraPencegahan": "Vaksin pada hewan peliharaan, mencuci luka gigitan atau goresan sesegera mungkin dengan sabun",
     "images": [
-      "/images/viruses/rabies/rabies.png",
       "/images/viruses/rabies/rabies(1).png",
       "/images/viruses/rabies/rabies(2).png",
       "/images/viruses/rabies/rabies(3).png",
+      "/images/viruses/rabies/rabies.png",
       "/images/viruses/rabies/rabies(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/99W8c5f6IQs?si=17HZfYHXW3aQ9n3n"
   },
   {
     "id": 17,
@@ -277,12 +293,13 @@
     "tempatDitemukan": "Ditularkan dari hewan liar dan menyebar ke dalam lingkup manusia melalui penularan dari manusia ke sesamanya. ",
     "caraPencegahan": "Tidak melakukan kontak langsung dengan individu yang terinfeksi atau tidak menggunakan alat yang sama dengan individu yang terinfeksi.",
     "images": [
-      "/images/viruses/ebola/ebola.png",
       "/images/viruses/ebola/ebola(1).png",
       "/images/viruses/ebola/ebola(2).png",
       "/images/viruses/ebola/ebola(3).png",
+      "/images/viruses/ebola/ebola.png",
       "/images/viruses/ebola/ebola(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/sRv19gkZ4E0?si=Vx8_uYJ58Ep7tFu6"
   },
   {
     "id": 18,
@@ -294,12 +311,13 @@
     "tempatDitemukan": "Di Indonesia, penularan HIV terutama disebabkan oleh hubungan seks yang tidaklah aman serta penggunaan jarum suntik yang tidak lah steril ketika menggunakan narkoba secara bersama-sama. Individu yang mengidap HIV bisa menyebarkannya pada individu lain, terlebih dalam beberapa minggu setelah terjangkit.",
     "caraPencegahan": "tenaga kesehatan dapat memberikan penyuluhan tentang pentingnya informasi mengenai HIV/AIDS secara teratur dan merata sehingga dapat memajukan kesehatan lapisan masyarakat khususnya remaja, bagi sekolah diharapkan untuk lebih meningkatkan lagi pembelajaran tentang waspada penyakit HIV/AIDS dan dampaknya bagi kesehatan",
     "images": [
-      "/images/viruses/hiv/hiv.png",
       "/images/viruses/hiv/hiv(1).png",
       "/images/viruses/hiv/hiv(2).png",
       "/images/viruses/hiv/hiv(3).png",
+      "/images/viruses/hiv/hiv.png",
       "/images/viruses/hiv/hiv(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/dAXmTtWTirw?si=74p6cEvR_4deZN1f"
   },
   {
     "id": 19,
@@ -311,11 +329,12 @@
     "tempatDitemukan": "Campak menyebar  terutama  pada anak-anak di bawah usia 5 tahu.,",
     "caraPencegahan": "Penatalaksanaan pasien campak terdiri dari terapi suportif dan pemberian vitamin A. Pencegahan dilakukan dengan vaksinasi campak-gondong-rubella (MMR). ",
     "images": [
-      "/images/viruses/measles/measles.png",
       "/images/viruses/measles/measles(1).png",
       "/images/viruses/measles/measles(2).png",
+      "/images/viruses/measles/measles.png",
       "/images/viruses/measles/measles(3).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/O7RPyrS0RNI?si=9ll2SI9b28PiLL6B"
   },
   {
     "id": 20,
@@ -327,12 +346,13 @@
     "tempatDitemukan": "Gondongan adalah penyakit anak usia sekolah dan memiliki distribusi di seluruh dunia. Penyakit ini umumnya didapat di sekolah dan menyebar ke anggota keluarga yang rentan. Infeksi jarang terjadi pada bayi yang berusia di bawah 1 tahun, mungkin sebagai akibat dari antibodi ibu yang didapat secara pasif.",
     "caraPencegahan": "Penyakit gondongan dapat dicegah dengan pemberian vaksin, yang sering diberikan dalam kombinasi dengan vaksin lain, seperti vaksin kombinasi campak-gondongan-rubela (MMR).",
     "images": [
-      "/images/viruses/mumps/mumps.png",
       "/images/viruses/mumps/mumps(1).png",
       "/images/viruses/mumps/mumps(2).png",
       "/images/viruses/mumps/mumps(3).png",
+      "/images/viruses/mumps/mumps.png",
       "/images/viruses/mumps/mumps(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/s3ACcn8IWFc?si=7itSFVzCE5Yqw0eD"
   },
   {
     "id": 21,
@@ -344,11 +364,12 @@
     "tempatDitemukan": "puncak insiden rubella terjadi pada anak-anak berusia 5 hingga 9 tahun, dan angka puncak biasanya terjadi pada akhir musim dingin dan awal musim sem",
     "caraPencegahan": "Penyakit gondongan dapat dicegah dengan pemberian vaksin, yang sering diberikan dalam kombinasi dengan vaksin lain, seperti vaksin kombinasi campak-gondongan-rubela (MMR).",
     "images": [
-      "/images/viruses/rubella/rubella.png",
       "/images/viruses/rubella/rubella(1).png",
       "/images/viruses/rubella/rubella(2).png",
       "/images/viruses/rubella/rubella(3).png",
+      "/images/viruses/rubella/rubella.png",
       "/images/viruses/rubella/rubella(4).png"
-    ]
+    ],
+    "video": "https://www.youtube.com/embed/Z7gXMnDuyF4?si=r22dsHf1b3zjP36D"
   }
 ]

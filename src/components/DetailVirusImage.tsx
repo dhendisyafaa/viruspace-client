@@ -15,7 +15,7 @@ import { useState } from "react";
 
 export default function DetailVirusImage({ images }) {
   const [openModal, setOpenModal] = useState(false);
-  const autoplayDuration = 5000;
+  const autoplayDuration = 3000;
   return (
     <div className="w-full mx-auto">
       <div className="hidden md:block w-full sticky top-4 columns-2 gap-4 space-y-4">
