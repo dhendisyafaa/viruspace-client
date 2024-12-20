@@ -6,26 +6,38 @@ import { useEffect, useState } from "react";
 import virusData from "../../constans/mini-game.json";
 import Image from "next/image";
 
+type Question = {
+  id: number;
+  namaVirus: string;
+};
+
+type Answer = {
+  id: number;
+  image: string;
+};
+
 const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
 const MiniGamePage = () => {
-  const [questions, setQuestions] = useState(virusData[0].questions);
-  const [answers, setAnswers] = useState(virusData[1].answers);
-  const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [shuffledAnswers, setShuffledAnswers] = useState([]);
-  const [feedback, setFeedback] = useState(null);
+  const [questions, setQuestions] = useState<Question[]>(
+    virusData[0]?.questions || []
+  );
+  const [answers, setAnswers] = useState<Answer[]>(virusData[1]?.answers || []);
+  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
+  const [shuffledAnswers, setShuffledAnswers] = useState<Answer[]>([]);
+  const [feedback, setFeedback] = useState<"correct" | "wrong" | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (questions.length > 0) {
       loadQuestion();
-      setLoading(false);
-    } else {
-      setLoading(false);
     }
+    setLoading(false);
   }, [questions]);
 
   const loadQuestion = () => {
+    if (!questions || questions.length === 0) return;
+
     const question = questions[0];
     setCurrentQuestion(question);
 
@@ -40,15 +52,15 @@ const MiniGamePage = () => {
       ...remainingAnswers,
     ]).slice(0, 10);
 
-    if (!availableAnswers.some((answer) => answer.id === correctAnswer.id)) {
-      availableAnswers[Math.floor(Math.random() * 10)] = correctAnswer;
+    if (!availableAnswers.some((answer) => answer?.id === correctAnswer?.id)) {
+      availableAnswers[Math.floor(Math.random() * 10)] = correctAnswer!;
     }
 
     setShuffledAnswers(availableAnswers);
   };
 
-  const handleAnswer = (selectedId) => {
-    if (selectedId === currentQuestion.id) {
+  const handleAnswer = (selectedId: number) => {
+    if (selectedId === currentQuestion?.id) {
       setFeedback("correct");
     } else {
       setFeedback("wrong");
@@ -58,10 +70,10 @@ const MiniGamePage = () => {
       setFeedback(null);
 
       const updatedQuestions = questions.filter(
-        (question) => question.id !== currentQuestion.id
+        (question) => question.id !== currentQuestion?.id
       );
       const updatedAnswers = answers.filter(
-        (answer) => answer.id !== currentQuestion.id
+        (answer) => answer.id !== currentQuestion?.id
       );
 
       setQuestions(updatedQuestions);
