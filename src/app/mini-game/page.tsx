@@ -2,9 +2,9 @@
 
 import ListOfViruses from "@/components/ListOfViruses";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import virusData from "../../constans/mini-game.json";
-import Image from "next/image";
 
 type Question = {
   id: number;
@@ -50,10 +50,10 @@ const MiniGamePage = () => {
     const availableAnswers = shuffleArray([
       correctAnswer,
       ...remainingAnswers,
-    ]).slice(0, 10);
+    ]).slice(0, 12);
 
     if (!availableAnswers.some((answer) => answer?.id === correctAnswer?.id)) {
-      availableAnswers[Math.floor(Math.random() * 10)] = correctAnswer!;
+      availableAnswers[Math.floor(Math.random() * 12)] = correctAnswer!;
     }
 
     setShuffledAnswers(availableAnswers);
@@ -96,13 +96,13 @@ const MiniGamePage = () => {
           <h1 className="text-3xl uppercase text-center text-primary font-bold mb-4">
             {currentQuestion.namaVirus}
           </h1>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 justify-center overflow-hidden items-center gap-4 h-fit w-fit border shadow-lg rounded-full p-8 md:p-16 lg:p-24">
+          <div className="grid grid-cols-3 sm:grid-cols-4 justify-center overflow-hidden items-center gap-4 w-full h-full sm:h-fit sm:w-fit border shadow-lg rounded-full p-8 md:p-16 lg:p-24">
             {shuffledAnswers.map((answer, idx) => {
               return (
                 <button
                   key={idx}
                   onClick={() => handleAnswer(answer.id)}
-                  className="border shadow-md hover:scale-110 duration-200 relative rounded-full md:w-24 md:h-24 h-20 w-20"
+                  className="border justify-self-center shadow-md hover:scale-110 duration-200 relative rounded-full md:w-24 md:h-24 h-20 w-20 bg-[#fff8f3]"
                 >
                   <Image
                     fill
@@ -140,13 +140,13 @@ const MiniGamePage = () => {
       )}
 
       {feedback === "correct" && (
-        <div className="absolute top-0 left-0 w-full h-screen overflow-y-hidden bg-primary flex items-center justify-center z-50">
+        <div className="absolute top-0 left-0 w-full h-screen overflow-hidden bg-primary flex items-center justify-center z-50">
           <h2 className="text-white text-5xl font-bold">BENAR!</h2>
         </div>
       )}
       {feedback === "wrong" && (
-        <div className="absolute top-0 left-0 w-full h-screen overflow-y-hidden bg-red-900 flex flex-col items-center justify-center z-50">
-          <h2 className="text-white text-3xl mb-4">SALAH!</h2>
+        <div className="absolute top-0 left-0 w-full h-screen overflow-hidden bg-red-900 flex flex-col items-center justify-center z-50">
+          <h2 className="text-white text-5xl font-bold">SALAH!</h2>
         </div>
       )}
     </div>
