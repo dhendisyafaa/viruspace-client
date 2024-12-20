@@ -1,0 +1,64 @@
+[
+  {
+    "questions": [
+      { "id": 1, "namaVirus": "common cold" },
+      { "id": 2, "namaVirus": "sars-cov-2" },
+      { "id": 3, "namaVirus": "varicella zoaster" },
+      { "id": 4, "namaVirus": "human papillomavirus" },
+      { "id": 5, "namaVirus": "influenza" },
+      { "id": 6, "namaVirus": "syncytial resparasi" },
+      { "id": 7, "namaVirus": "herpes simplex" },
+      { "id": 8, "namaVirus": "norovirus" },
+      { "id": 9, "namaVirus": "rotavirus" },
+      { "id": 10, "namaVirus": "hepatitis a, b, dan c" },
+      { "id": 11, "namaVirus": "dengue" },
+      { "id": 12, "namaVirus": "zika" },
+      { "id": 13, "namaVirus": "chikungunya" },
+      { "id": 14, "namaVirus": "west nile" },
+      { "id": 15, "namaVirus": "polio" },
+      { "id": 16, "namaVirus": "rabies" },
+      { "id": 17, "namaVirus": "ebola" },
+      { "id": 18, "namaVirus": "hiv" },
+      { "id": 19, "namaVirus": "measles" },
+      { "id": 20, "namaVirus": "mumps" },
+      { "id": 21, "namaVirus": "rubella" }
+    ]
+  },
+  {
+    "answers": [
+      { "id": 1, "image": "/images/viruses/common-cold/common-cold.png" },
+      { "id": 2, "image": "/images/viruses/sars-cov-2/sars-cov-2.png" },
+      {
+        "id": 3,
+        "image": "/images/viruses/varicella-zoaster/varicella-zoaster.png"
+      },
+      {
+        "id": 4,
+        "image": "/images/viruses/human-papillomavirus/human-papillomavirus.png"
+      },
+      { "id": 5, "image": "/images/viruses/influenza/influenza.png" },
+      {
+        "id": 6,
+        "image": "/images/viruses/syncytial-resparasi/syncytial-resparasi.png"
+      },
+      { "id": 7, "image": "/images/viruses/herpes-simplex/herpes-simplex.png" },
+      { "id": 8, "image": "/images/viruses/norovirus/norovirus.png" },
+      { "id": 9, "image": "/images/viruses/rotavirus/rotavirus.png" },
+      {
+        "id": 10,
+        "image": "/images/viruses/hepatitis-a-b-dan-c/hepatitis-a-b-dan-c.png"
+      },
+      { "id": 11, "image": "/images/viruses/dengue/dengue.png" },
+      { "id": 12, "image": "/images/viruses/zika/zika.png" },
+      { "id": 13, "image": "/images/viruses/chikungunya/chikungunya.png" },
+      { "id": 14, "image": "/images/viruses/west-nile/west-nile.png" },
+      { "id": 15, "image": "/images/viruses/polio/polio.png" },
+      { "id": 16, "image": "/images/viruses/rabies/rabies.png" },
+      { "id": 17, "image": "/images/viruses/ebola/ebola.png" },
+      { "id": 18, "image": "/images/viruses/hiv/hiv.png" },
+      { "id": 19, "image": "/images/viruses/measles/measles.png" },
+      { "id": 20, "image": "/images/viruses/mumps/mumps.png" },
+      { "id": 21, "image": "/images/viruses/rubella/rubella.png" }
+    ]
+  }
+]
