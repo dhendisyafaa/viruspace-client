@@ -38,7 +38,7 @@ export default function QuizPage() {
           alt="virus-pattern"
           fill
           objectFit="cover"
-          className="-z-10 opacity-10 sm:hidden"
+          className="-z-5 grayscale opacity-10 sm:hidden"
         />
       </div>
       <div className="min-h-[70vh] overflow-hidden sm:absolute inset-0 items-center mx-auto gap-8 px-4 grid grid-cols-1 sm:grid-cols-2">

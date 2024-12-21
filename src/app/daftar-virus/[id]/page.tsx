@@ -121,13 +121,13 @@ export default async function DetailVirus({
           <div className="mt-5 space-x-2">
             <Link
               href={"/quiz"}
-              className="px-4 py-2 md:px-8 md:py-3 text-sm md:text-base bg-primary border-2 text-primary-foreground rounded-xl duration-300 font-bold hover:bg-background hover:text-primary hover:border-2 hover:border-primary"
+              className="px-4 py-2 md:px-8 md:py-3 text-sm md:text-base bg-primary border-2 text-primary-foreground rounded-xl duration-300 font-bold hover:bg-background hover:text-primary border-transparent hover:border-2 hover:border-primary"
             >
               Quiz
             </Link>
             <Link
               href={"/mini-game"}
-              className="px-4 py-2 md:px-8 md:py-3 text-sm md:text-base bg-primary border-2 text-primary-foreground rounded-xl duration-300 font-bold hover:bg-background hover:text-primary hover:border-2 hover:border-primary"
+              className="px-4 py-2 md:px-8 md:py-3 text-sm md:text-base bg-primary border-2 text-primary-foreground rounded-xl duration-300 font-bold hover:bg-background hover:text-primary border-transparent hover:border-2 hover:border-primary"
             >
               Mainkan Mini Game
             </Link>
