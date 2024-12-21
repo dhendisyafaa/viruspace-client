@@ -96,13 +96,13 @@ const MiniGamePage = () => {
           <h1 className="text-3xl uppercase text-center text-primary font-bold mb-4">
             {currentQuestion.namaVirus}
           </h1>
-          <div className="grid grid-cols-3 sm:grid-cols-4 justify-center overflow-hidden items-center gap-4 w-full h-full sm:h-fit sm:w-fit shadow-lg rounded-full p-8 md:p-16 lg:p-24">
+          <div className="grid grid-cols-3 sm:grid-cols-4 justify-center overflow-hidden items-center gap-4 w-full h-full sm:h-fit sm:w-fit shadow-lg rounded-full px-8 py-12 sm:py-20 md:px-16 lg:p-24">
             {shuffledAnswers.map((answer, idx) => {
               return (
                 <button
                   key={idx}
                   onClick={() => handleAnswer(answer.id)}
-                  className="hover:border-primary hover:border justify-self-center shadow-md hover:scale-110 duration-200 relative rounded-full md:w-24 md:h-24 h-20 w-20 bg-[#fff8f3]"
+                  className="md:hover:border-primary md:hover:border justify-self-center shadow-md hover:scale-110 duration-200 relative rounded-full md:w-24 md:h-24 h-20 w-20 bg-[#fff8f3]"
                 >
                   <Image
                     fill
