@@ -6,6 +6,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import dataDetailVirus from "../../../constans/detail-virus.json";
+import Image from "next/image";
+import FunFactData from "../../../constans/fun-fact.json";
+import Link from "next/link";
 
 export default async function DetailVirus({
   params,
@@ -25,6 +28,10 @@ export default async function DetailVirus({
       </div>
     );
   }
+
+  const funFact = FunFactData.find((fun) => fun.id === Number(id)) || {
+    funFact: "Fun fact tidak tersedia untuk virus ini.",
+  };
 
   return (
     <div className="container px-4 mx-auto gap-5 grid grid-cols-1 md:grid-cols-2">
@@ -81,6 +88,49 @@ export default async function DetailVirus({
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
+          </div>
+        </div>
+        <div className="space-y-3">
+          <Image
+            src={"/images/fun-fact.png"}
+            width={150}
+            height={100}
+            alt="fun-fact logo"
+          />
+          <div className="relative p-4 bg-primary text-primary-foreground rounded-3xl">
+            <Image
+              src={"/images/idea.png"}
+              width={50}
+              height={50}
+              alt="fun-fact logo"
+              className="-top-8 -right-3 absolute"
+            />
+            <p className="font-medium text-base md:text-lg">
+              {funFact.funFact}
+            </p>
+          </div>
+        </div>
+        <div className="p-4">
+          <p className="text-primary font-extrabold text-lg">
+            SIAP UNTUK BERMAIN DAN BELAJAR?
+          </p>
+          <p className="text-primary font-medium text-base md:text-lg">
+            Ayo mainkan quiz dan mini games untuk menguji sejauh mana kamu paham
+            tentang virus!
+          </p>
+          <div className="mt-5 space-x-2">
+            <Link
+              href={"/quiz"}
+              className="px-4 py-2 md:px-8 md:py-3 text-sm md:text-base bg-primary border-2 text-primary-foreground rounded-xl duration-300 font-bold hover:bg-background hover:text-primary hover:border-2 hover:border-primary"
+            >
+              Quiz
+            </Link>
+            <Link
+              href={"/mini-game"}
+              className="px-4 py-2 md:px-8 md:py-3 text-sm md:text-base bg-primary border-2 text-primary-foreground rounded-xl duration-300 font-bold hover:bg-background hover:text-primary hover:border-2 hover:border-primary"
+            >
+              Mainkan Mini Game
+            </Link>
           </div>
         </div>
       </div>

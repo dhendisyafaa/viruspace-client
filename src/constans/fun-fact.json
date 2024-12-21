@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "namaVirus": "common cold",
+    "funFact": "Lebih dari 200 virus berbeda dapat menyebabkan common cold, dengan rhinovirus menjadi penyebab paling umum.",
+    "link": "/daftar-virus/1?name=common-cold"
+  },
+  {
+    "id": 2,
+    "namaVirus": "SARS-CoV-2",
+    "funFact": "Virus ini memiliki kemampuan untuk bermutasi dengan cepat, yang menyebabkan munculnya varian baru yang dapat mempengaruhi tingkat penularan dan keparahan penyakit.",
+    "link": "/daftar-virus/2?name=sars-cov-2"
+  },
+  {
+    "id": 3,
+    "namaVirus": "Varicella-Zoster Virus",
+    "funFact": "Setelah infeksi awal yang menyebabkan cacar air, VZV dapat tetap dormant dalam sistem saraf dan dapat aktif kembali sebagai shingles (herpes zoster) di kemudian hari.",
+    "link": "/daftar-virus/3?name=varicella-zoaster"
+  },
+  {
+    "id": 4,
+    "namaVirus": "Human Papillomavirus",
+    "funFact": "HPV adalah virus menular seksual yang paling umum, dengan lebih dari 100 tipe, dan beberapa di antaranya dapat menyebabkan kanker serviks dan orofaring.",
+    "link": "/daftar-virus/4?name=human-papillomavirus"
+  },
+  {
+    "id": 5,
+    "namaVirus": "Influenza",
+    "funFact": "Virus influenza penyebab flu merupakan virus yang selalu berkembang & memiliki jenis baru dari waktu ke waktu.",
+    "link": "/daftar-virus/5?name=influenza"
+  },
+  {
+    "id": 6,
+    "namaVirus": "Virus Syncytial Respirasi",
+    "funFact": "RSV adalah penyebab utama infeksi saluran pernapasan pada bayi dan anak kecil, dan dapat menyebabkan pneumonia.",
+    "link": "/daftar-virus/6?name=syncytial-resparasi"
+  },
+  {
+    "id": 7,
+    "namaVirus": "Herpes Simplex Virus",
+    "funFact": "Terdapat dua tipe HSV, yaitu HSV-1 yang biasanya menyebabkan herpes oral dan HSV-2 yang lebih sering terkait dengan herpes genital, tetapi keduanya dapat menyebabkan infeksi di area yang berbeda.",
+    "link": "/daftar-virus/7?name=herpes-simplex"
+  },
+  {
+    "id": 8,
+    "namaVirus": "Norovirus",
+    "funFact": "Norovirus adalah virus dengan hanya 18 partikel virus yang cukup untuk menginfeksi seseorang!",
+    "link": "/daftar-virus/8?name=norovirus"
+  },
+  {
+    "id": 9,
+    "namaVirus": "Rotavirus",
+    "funFact": "Rotavirus adalah penyebab diare parah pada bayi dan anak-anak, yang mengakibatkan lebih dari 200.000 kematian setiap tahun di seluruh dunia, menjadikannya sebagai penyebab utama kematian anak.",
+    "link": "/daftar-virus/9?name=rotavirus"
+  },
+  {
+    "id": 10,
+    "namaVirus": "Hepatitis",
+    "funFact": "Virus Hepatitis B dapat bertahan di luar tubuh selama setidaknya 7 hari, menjadikannya salah satu virus yang paling tahan lama dan dapat menginfeksi individu bahkan setelah terpapar.",
+    "link": "/daftar-virus/10?name=hepatitis-a-b-dan-c"
+  },
+  {
+    "id": 11,
+    "namaVirus": "Dengue",
+    "funFact": "Virus dengue dapat menyebabkan gejala parah yang berujung pada demam berdarah dengue, yang bisa berakibat fatal jika tidak diobati dengan cepat, dan diperkirakan ada 390 juta infeksi setiap tahun di seluruh dunia.",
+    "link": "/daftar-virus/11?name=dengue"
+  },
+  {
+    "id": 12,
+    "namaVirus": "Zika",
+    "funFact": "Virus Zika terutama ditularkan oleh nyamuk Aedes, tetapi juga dapat ditularkan secara seksual, dan infeksi selama kehamilan dapat menyebabkan cacat lahir serius seperti mikrosefali.",
+    "link": "/daftar-virus/12?name=zika"
+  },
+  {
+    "id": 13,
+    "namaVirus": "Chikungunya",
+    "funFact": "Nama (chikungunya) berasal dari kata dalam bahasa Kimakonde yang berarti menjadi terpelintir, mencerminkan rasa sakit sendi yang melemahkan yang sering menyertai infeksi ini.",
+    "link": "/daftar-virus/13?name=chikungunya"
+  },
+  {
+    "id": 14,
+    "namaVirus": "West Nile",
+    "funFact": "Virus West Nile terutama ditularkan oleh nyamuk dan dapat menyebabkan penyakit neurologis serius pada beberapa individu, dengan sekitar 1 dari 150 orang yang terinfeksi mengalami penyakit serius.",
+    "link": "/daftar-virus/14?name=west-nile"
+  },
+  {
+    "id": 15,
+    "namaVirus": "Polio",
+    "funFact": "Vaksin polio menyebabkan sindrom kematian bayi mendadak adalah sebuah mitos",
+    "link": "/daftar-virus/15?name=polio"
+  },
+  {
+    "id": 16,
+    "namaVirus": "Rabies",
+    "funFact": "Pada zaman dahulu tepatnya tahun 2300 SM di Babilonia yang memiliki anjing harus membayar denda jika anjing mereka menularkan rabies kepada manusia.",
+    "link": "/daftar-virus/16?name=rabies"
+  },
+  {
+    "id": 17,
+    "namaVirus": "Ebola",
+    "funFact": "Ebola pernah menjadi wabah besar di Afrika Barat antara tahun 2014-2016 dengan 28600 kasus dilaporkan meninggal ",
+    "link": "/daftar-virus/17?name=ebola"
+  },
+  {
+    "id": 18,
+    "namaVirus": "HIV",
+    "funFact": "Sekitar 90% infeksi HIV baru di AS terjadi selama hubungan seks",
+    "link": "/daftar-virus/18?name=hiv"
+  },
+  {
+    "id": 19,
+    "namaVirus": "Measles/campak",
+    "funFact": "Indonesia merupakan salah satu dari sepuluh negara dengan kasus campak terbanyak di dunia.",
+    "link": "/daftar-virus/19?name=measles"
+  },
+  {
+    "id": 20,
+    "namaVirus": "Mumps/gondongan",
+    "funFact": "Mengobati gondongan menggunakan blau adalah mitos.",
+    "link": "/daftar-virus/20?name=mumps"
+  },
+  {
+    "id": 21,
+    "namaVirus": "Rubella",
+    "funFact": "Vaksinasi rubella hampir selalu dilakukan dengan vaksinasi campak.",
+    "link": "/daftar-virus/21?name=rubella"
+  }
+]
