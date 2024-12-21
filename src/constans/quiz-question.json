@@ -3,7 +3,7 @@
     "id": 1,
     "question": "Manakah berikut ini yang merupakan virus yang ditularkan melalui nyamuk?",
     "option": {
-      "a": "Virus influenza",
+      "a": "Virus influenza (Flu)",
       "b": "Virus dengue",
       "c": "Virus rabies",
       "d": "Virus polio"
@@ -41,7 +41,7 @@
     "option": {
       "a": "Virus Syncytial Respirasi (RSV)",
       "b": "Varicella-Zoster Virus (VZV)",
-      "c": "Influenza (flu)",
+      "c": "Influenza (Flu)",
       "d": "Herpes Simplex Virus (HSV)"
     },
     "answer": "c",
@@ -51,49 +51,49 @@
     "id": 5,
     "question": "Jawaban yang benar tentang virus-virus yang menyebar di tempat umum adalah",
     "option": {
-      "a": "Pilek, flu, RSV",
-      "b": "Pilek, HPV, flu",
-      "c": "Rubella, HIV, HPV",
-      "d": "Norovirus, HIV, HPV"
+      "a": "Pilek, Influenza (Flu), Virus Syncytial Respirasi (RSV)",
+      "b": "Pilek, Human Papillomavirus (HPV), Influenza (Flu)",
+      "c": "Rubella, human immunodeficiency virus (HIV), Human Papillomavirus (HPV)",
+      "d": "Norovirus, human immunodeficiency virus  (HIV), Human Papillomavirus (HPV)"
     },
     "answer": "a",
-    "reason": "3 virus yang menyebar di tempat umum di dalam opsi yang benar semua adalah opsi a yaitu pilek, flu, RSV."
+    "reason": "3 virus yang menyebar di tempat umum di dalam opsi yang benar semua adalah opsi a yaitu pilek, Influenza (Flu), Virus Syncytial Respirasi (RSV)."
   },
   {
     "id": 6,
     "question": "Virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer adalah virus",
     "option": {
-      "a": "VZV",
-      "b": "HPV",
-      "c": "HSV",
-      "d": "HIV"
+      "a": "Varicella-Zoster Virus (VZV)",
+      "b": "Human Papillomavirus (HPV)",
+      "c": "Herpes Simplex Virus (HSV)",
+      "d": "Human immunodeficiency virus (HIV)"
     },
     "answer": "a",
-    "reason": "Virus VZV adalah virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer."
+    "reason": "Varicella-Zoster Virus (VZV) adalah virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer."
   },
   {
     "id": 7,
-    "question": "Virus yang pertama kali menyebar di Tiongkok awal Januari 2020 adalah virus",
+    "question": "Virus yang pertama kali menyebar di tiongkok awal januari 2020 adalah virus",
     "option": {
-      "a": "HPV",
+      "a": "Human Papillomavirus (HPV)",
       "b": "SARS-CoV-2",
-      "c": "HIV",
-      "d": "Flu"
+      "c": "Human immunodeficiency virus (HIV)",
+      "d": "Influenza (Flu)"
     },
-    "answer": "b",
-    "reason": "Virus SARS-CoV-2 pertama kali menyebar di Tiongkok awal Januari 2020."
+    "answer": "a",
+    "reason": "Varicella-Zoster Virus (VZV) adalah virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer."
   },
   {
     "id": 8,
-    "question": "agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif, juga diselubungi oleh lipid.",
+    "question": "Agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif, juga diselubungi oleh lipid.",
     "option": {
-      "a": "Virus Syncytial Respirasi (infeksi saluran pernafasan)",
+      "a": "Virus Syncytial Respirasi(infeksi saluran pernafasan)",
       "b": "SARS-CoV-2",
-      "c": "HIV",
-      "d": "Flu"
+      "c": "Human immunodeficiency virus (HIV)",
+      "d": "Influenza (Flu)"
     },
-    "answer": "a",
-    "reason": "Virus Syncytial Respirasi adalah agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif,  juga diselubungi oleh lipid."
+    "answer": "b",
+    "reason": "SARS-CoV-2 adalah Virus yang pertama kali menyebar di tiongkok awal januari 2020"
   },
   {
     "id": 9,
