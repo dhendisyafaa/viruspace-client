@@ -10,6 +10,8 @@ export default function ListOfViruses() {
           <Link
             href={`/daftar-virus/${virus.id}?name=${virus.name}`}
             key={virus.id}
+            data-aos="fade-up"
+            data-aos-delay="100"
           >
             <div
               className="relative aspect-square rounded-3xl overflow-hidden"

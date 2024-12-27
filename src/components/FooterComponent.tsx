@@ -5,7 +5,10 @@ import Link from "next/link";
 export default function FooterComponent() {
   const year = new Date().getFullYear();
   return (
-    <div className="bg-primary text-primary-foreground rounded-tr-3xl rounded-tl-3xl lg:rounded-tl-[100px] lg:rounded-tr-[100px]">
+    <div
+      className="bg-primary text-primary-foreground rounded-tr-3xl rounded-tl-3xl lg:rounded-tl-[100px] lg:rounded-tr-[100px]"
+      data-aos="fade-up"
+    >
       <div className="w-[90%] mx-auto py-6 space-y-5">
         <div className="min-h-[50vh] grid lg:grid-cols-2 space-y-5">
           <div className="flex flex-col gap-3 w-full justify-center">

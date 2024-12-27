@@ -7,10 +7,10 @@ import Link from "next/link";
 
 export default function FunFactVirus() {
   return (
-    <div className="px-4 md:px-10 p-8 space-y-3">
+    <div className="p-4 pb-10 md:px-10 space-y-4">
       <Image
         src={"/images/fun-fact.png"}
-        width={180}
+        width={160}
         height={100}
         alt="fun-fact logo"
       />

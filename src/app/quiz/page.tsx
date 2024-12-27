@@ -43,7 +43,10 @@ export default function QuizPage() {
       </div>
       <div className="min-h-[70vh] overflow-hidden sm:absolute inset-0 items-center mx-auto gap-8 px-4 grid grid-cols-1 sm:grid-cols-2">
         <div className="space-y-7 sm:w-[40vw] justify-self-center">
-          <p className="font-bold text-primary text-3xl md:text-5xl ">
+          <p
+            className="font-bold text-primary text-3xl md:text-5xl"
+            data-aos="fade-up"
+          >
             Seberapa Jenius Sih Kamu?
           </p>
           <form
@@ -55,11 +58,15 @@ export default function QuizPage() {
               placeholder="Masukkan namamu"
               value={player.name}
               onChange={handleOnInputPlayerName}
+              data-aos="fade-in"
+              data-aos-delay="500"
             />
             <Button
               type="submit"
               className="w-full rounded-xl font-bold"
               disabled={player.name == ""}
+              data-aos="fade-in"
+              data-aos-delay="1000"
             >
               Mulai Quiz
             </Button>

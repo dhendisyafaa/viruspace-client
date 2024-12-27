@@ -13,14 +13,23 @@ export default function CardsSection({ content }) {
   return (
     <div className="bg-primary text-center py-20 text-primary-foreground rounded-3xl lg:rounded-[100px]">
       <div className="px-4 md:w-[70vw] mx-auto">
-        <p className="text-xl md:text-4xl font-bold">{content.title}</p>
-        <p className="text-sm lg:text-lg mt-5">{content.subTitle}</p>
+        <p className="text-xl md:text-4xl font-bold" data-aos="fade-in">
+          {content.title}
+        </p>
+        <p
+          className="text-sm lg:text-lg mt-5"
+          data-aos="fade-in"
+          data-aos-delay="500"
+        >
+          {content.subTitle}
+        </p>
         <div className="gap-10 mt-10 grid grid-cols-1 md:grid-cols-2">
-          {content.cards.map((content, i) => {
+          {content.cards.map((content) => {
             return (
               <Card
-                key={i}
+                key={content.id}
                 className="max-w-md rounded-[50px] mx-auto text-left overflow-hidden border-none"
+                data-aos={content.id % 2 === 0 ? "fade-left" : "fade-right"}
               >
                 <div className="relative h-72">
                   <Image
