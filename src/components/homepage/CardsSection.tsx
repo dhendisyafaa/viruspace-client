@@ -23,7 +23,7 @@ export default function CardsSection({ content }) {
         >
           {content.subTitle}
         </p>
-        <div className="gap-10 mt-10 grid grid-cols-1 md:grid-cols-2">
+        <div className="gap-10 mt-10 grid grid-cols-1 md:grid-cols-2 overflow-x-hidden">
           {content.cards.map((content) => {
             return (
               <Card
