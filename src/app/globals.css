@@ -18,6 +18,16 @@ iframe {
   width: 100% !important;
 }
 
+[data-aos] {
+  pointer-events: none;
+}
+.aos-animate {
+  pointer-events: auto;
+}
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
+
 /* 
 207 28% 35% = #405D72
 210 13% 52% = #758694
