@@ -1,50 +1,65 @@
 {
-  "sdfgsf": "",
-  "images": [
-    {
-      "name": "Dhendi Syafa Athallah P",
-      "nim": "2405380",
-      "image": "/images/members/dhen.png"
-    },
-    {
-      "name": "Citra Syavira R",
-      "nim": "2401355",
-      "image": "/images/members/cit.png"
-    },
-    {
-      "name": "Ariel Hidayatul Faqih",
-      "nim": "2401265",
-      "image": "/images/members/ril.png"
-    },
-    {
-      "name": "Najmi Nur Layaliani",
-      "nim": "2407671",
-      "image": "/images/members/mi.png"
-    },
-    {
-      "name": "Bhismart Sopian S",
-      "nim": "2406515",
-      "image": "/images/members/bis.png"
-    },
-    {
-      "name": "Kaisya Azzahra S",
-      "nim": "2405436",
-      "image": "/images/members/kai.png"
-    },
-    {
-      "name": "Muhammad Ikman M",
-      "nim": "2406458",
-      "image": "/images/members/man.png"
-    },
-    {
-      "name": "Septin Sehawati Br P",
-      "nim": "2400923",
-      "image": "/images/members/tin.png"
-    },
-    {
-      "name": "Naufal Dzaky",
-      "nim": "2406448",
-      "image": "/images/members/ky.png"
-    }
-  ]
+  "aboutViruspace": "Website ini hadir sebagai platform pembelajaran bagi siswa/siswi dan umum untuk mengeksplorasi dunia virus. Kami ingin mengajak pelajar untuk memahami bagaimana virus bekerja, cara penyebarannya, serta langkah-langkah pencegahan yang dapat diambil. Proyek ini bertujuan untuk meningkatkan kesadaran dan pengetahuan tentang virus, sehingga generasi muda lebih siap dalam menghadapi tantangan kesehatan global di masa depan.",
+  "teams": {
+    "developers": [
+      {
+        "name": "Dhendi Syafa Athallah P",
+        "nim": "2405380",
+        "instagram": "https://www.instagram.com/dhendisyafaa/",
+        "image": "/images/members/dhen.png"
+      },
+      {
+        "name": "Ariel Hidayatul Faqih",
+        "nim": "2401265",
+        "instagram": "https://www.instagram.com/ariel_faqh/",
+        "image": "/images/members/ril.png"
+      }
+    ],
+    "research": [
+      {
+        "name": "Naufal Dzaky",
+        "nim": "2406448",
+        "instagram": "https://www.instagram.com/naky_biasalah/",
+        "image": "/images/members/ky.png"
+      },
+      {
+        "name": "Bhismart Sopian S",
+        "nim": "2406515",
+        "instagram": "https://www.instagram.com/ss.bhismart/",
+        "image": "/images/members/bis.png"
+      },
+      {
+        "name": "Kaisya Azzahra S",
+        "nim": "2405436",
+        "instagram": "https://www.instagram.com/kayyisazah/",
+        "image": "/images/members/kai.png"
+      }
+    ],
+    "design": [
+      {
+        "name": "Muhammad Ikman M",
+        "nim": "2406458",
+        "instagram": "https://www.instagram.com/ikman__maulana/",
+        "image": "/images/members/man.png"
+      },
+      {
+        "name": "Najmi Nur Layaliani",
+        "nim": "2407671",
+        "instagram": "https://www.instagram.com/najmiii.nl/",
+        "image": "/images/members/mi.png"
+      },
+      {
+        "name": "Citra Syavira R",
+        "nim": "2401355",
+        "instagram": "https://www.instagram.com/articsy0_/",
+        "image": "/images/members/cit.png"
+      },
+      {
+        "name": "Septin Sehawati Br P",
+        "nim": "2400923",
+        "instagram": "https://www.instagram.com/septinpandiangan22/",
+        "image": "/images/members/tin.png"
+      }
+    ]
+  }
 }
